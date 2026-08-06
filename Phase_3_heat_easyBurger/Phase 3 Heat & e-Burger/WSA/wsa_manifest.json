@@ -1,0 +1,39 @@
+{
+  "created": "2026-08-03T09:55:43",
+  "search_root": "/content/drive/MyDrive/WISER Results",
+  "out_dir": "/content/drive/MyDrive/WISER Results/Phase 3/WSA",
+  "n_spectrum_files": 148,
+  "pdes": [
+    "burgers",
+    "heat"
+  ],
+  "models": [
+    "gaaf",
+    "qapinn",
+    "twin"
+  ],
+  "seeds": [
+    777,
+    1234,
+    2025,
+    8080,
+    31415
+  ],
+  "integrity_problems": [],
+  "figures": [
+    "A1_overlay_burgers_n4_s1234.png",
+    "A1_overlay_heat_n6_s1234.png",
+    "A2_qubit_sweep_burgers_s1234.png",
+    "A2_qubit_sweep_heat_s1234.png",
+    "A3_metric_trends_burgers.png",
+    "A3_metric_trends_heat.png",
+    "A4_seed_sensitivity_burgers_n3_qapinn.png",
+    "A4_seed_sensitivity_heat_n4_qapinn.png",
+    "A5_single_vs_multi_burgers_qapinn.png",
+    "A5_single_vs_multi_heat_qapinn.png"
+  ],
+  "csv": "wsa_spectral_metrics.csv",
+  "anchor_seed": 1234,
+  "f_cut": 8.0,
+  "t_slice": 3.0
+}

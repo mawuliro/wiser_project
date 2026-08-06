@@ -1,0 +1,373 @@
+{
+  "note": "wsc-neuron-xai (Track A, Djabon)",
+  "source_notebook": "N4_GAAF_hardnu_q3to8.ipynb",
+  "n_slices": 26,
+  "t_slices": [
+    0.0,
+    0.04,
+    0.08,
+    0.12,
+    0.16,
+    0.2,
+    0.24,
+    0.28,
+    0.32,
+    0.36,
+    0.4,
+    0.44,
+    0.48,
+    0.52,
+    0.56,
+    0.6,
+    0.64,
+    0.68,
+    0.72,
+    0.76,
+    0.8,
+    0.84,
+    0.88,
+    0.92,
+    0.96,
+    1.0
+  ],
+  "checkpoints_found": 301,
+  "selected": 214,
+  "excluded": 87,
+  "rebuilt": 214,
+  "n_failures": 0,
+  "failures": [],
+  "n_cka_rows": 5564,
+  "n_neuron_rows": 585078,
+  "coverage": {
+    "0.01/pi|burgers|gaaf|n3": [
+      "1234",
+      "1234r",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n4": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.01/pi|burgers|gaaf|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n3": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n4": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|qapinn|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n3": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n4": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n3": [
+      "1234",
+      "1234r",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n3": [
+      "1234",
+      "1234*",
+      "1234r",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n4": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.05|burgers|twin|n4": [
+      "1234",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n5": [
+      "1234",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|gaaf|n3": [
+      "1234",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n3": [
+      "1234",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|gaaf|n4": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n4": [
+      "1234",
+      "1234*",
+      "1234r",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|heat|gaaf|n5": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777"
+    ],
+    "0.05|heat|twin|n5": [
+      "1234",
+      "1234*",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|twin|n6": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n7": [
+      "1234",
+      "1234r",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n7": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n8": [
+      "1234",
+      "2025",
+      "2025r",
+      "777"
+    ],
+    "0.05|heat|twin|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n3": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n4": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|heat|qapinn|n5": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n6": [
+      "1234",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n7": [
+      "1234",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n8": [
+      "1234",
+      "1234*",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|qapinn|n3": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n4": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n5": [
+      "1234",
+      "1234*",
+      "1234*",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n6": [
+      "1234*"
+    ],
+    "0.05|burgers|qapinn|n7": [
+      "1234*"
+    ],
+    "0.05|burgers|qapinn|n8": [
+      "1234*"
+    ]
+  },
+  "caveats": [
+    "Activations were RE-EXTRACTED from checkpoints at 26 slices; the stored *_acts.npz files (single slice t=0.5) were not used.",
+    "Model classes were imported from a training notebook, not re-typed.",
+    "nu=0.05 and nu=0.01/pi are catalogued separately and never merged.",
+    "Runs that failed to rebuild are listed by name and excluded from every figure.",
+    "CKA is linear CKA, invariant to orthogonal transform and isotropic scaling.",
+    "No value is interpolated or filled; missing configurations are reported as missing."
+  ]
+}

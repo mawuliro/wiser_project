@@ -1,0 +1,39 @@
+path,run,series,model,nu,n_feat,variance,model_labelled
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,3,1523.8465576171875,True
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,4,3058.079833984375,True
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,5,856.5809936523438,True
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,6,397.7237548828125,True
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,7,749.1310424804688,True
+WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_gaaf,var_gaaf,gaaf,0.01/pi,8,858.8087768554688,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,3,2.9094505310058594,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,4,7.41098690032959,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,5,1.1975122690200806,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,6,1.690527081489563,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,7,2.7577381134033203,True
+WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_hardnu_twin,var_twin,twin,0.01/pi,8,2.8381073474884033,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,3,3.643535852432251,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,4,0.778361439704895,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,5,0.6724346280097961,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,6,0.392764151096344,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,7,0.6479408740997314,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_qapinn,qapinn,0.05,8,0.12585848569869995,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,3,2.7265329360961914,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,4,3.0019633769989014,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,5,1.3870322704315186,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,6,1.355462670326233,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,7,2.4182205200195312,True
+WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs_heat,var_twin,twin,0.05,8,3.477043628692627,True
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs,var_twin,twin,0.05,3,2.965205192565918,True
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs,var_twin,twin,0.05,4,7.635770797729492,True
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/phase3_inputs/gradients/gradient_variance.npz,qapinn_runs,var_twin,twin,0.05,5,1.2403175830841064,True
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,3,0.7022455334663391,False
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,4,0.26642104983329773,False
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,5,0.16941986978054047,False
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,6,0.18531684577465057,False
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,7,0.21895264089107513,False
+WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz,Tiers12_q38_more_iter,var,qapinn,0.05,8,0.04443173110485077,False
+WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz,wiser,var,qapinn,0.05,3,0.7599380016326904,False
+WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz,wiser,var,qapinn,0.05,4,0.35314446687698364,False
+WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz,wiser,var,qapinn,0.05,5,0.10953262448310852,False
+WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz,wiser,var,qapinn,0.05,6,0.33590811491012573,False
+WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz,wiser,var,qapinn,0.05,7,0.3632148206233978,False

@@ -1,0 +1,413 @@
+{
+  "note": "wsa-timeslice (Track A, Djabon)",
+  "kcut": 8.0,
+  "drive_root": "/content/drive/MyDrive",
+  "output": "/content/drive/MyDrive/WISER Project/Phase 3/WSA/Timeslice",
+  "n_runs": 115,
+  "n_rows": 460,
+  "slices": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "n_duplicates_removed": 33,
+  "n_skipped": 18,
+  "skipped": [
+    {
+      "tag": "REPRO_shah_easy_n3_recipe_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n3_recipe_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n3_recipe_s777",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n3_shah_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n3_shah_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n3_shah_s777",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_recipe_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_recipe_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_recipe_s777",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_shah_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_shah_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n4_shah_s777",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_recipe_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_recipe_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_recipe_s777",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_shah_s1234",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_shah_s2025",
+      "reason": "tag did not parse"
+    },
+    {
+      "tag": "REPRO_shah_easy_n5_shah_s777",
+      "reason": "tag did not parse"
+    }
+  ],
+  "duplicates": [
+    {
+      "dropped": "MS_heat_n3_twin_s1234",
+      "kept": "MS_heat_n3_twin_s1234"
+    },
+    {
+      "dropped": "MS_heat_n3_twin_s2025",
+      "kept": "MS_heat_n3_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n3_twin_s777",
+      "kept": "MS_heat_n3_twin_s777"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s1234",
+      "kept": "MS_heat_n4_twin_s1234_r1"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s2025",
+      "kept": "MS_heat_n4_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s777",
+      "kept": "MS_heat_n4_twin_s777"
+    },
+    {
+      "dropped": "MS_heat_n5_twin_s1234",
+      "kept": "MS_heat_n5_twin_s1234"
+    },
+    {
+      "dropped": "MS_heat_n5_twin_s2025",
+      "kept": "MS_heat_n5_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n5_twin_s777_r1",
+      "kept": "MS_heat_n5_twin_s777"
+    },
+    {
+      "dropped": "MS_heat_n6_twin_s1234",
+      "kept": "MS_heat_n6_twin_s1234"
+    },
+    {
+      "dropped": "MS_heat_n6_twin_s2025",
+      "kept": "MS_heat_n6_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n6_twin_s777",
+      "kept": "MS_heat_n6_twin_s777_r1"
+    },
+    {
+      "dropped": "MS_heat_n7_twin_s1234",
+      "kept": "MS_heat_n7_twin_s1234"
+    },
+    {
+      "dropped": "MS_heat_n7_twin_s2025",
+      "kept": "MS_heat_n7_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n7_twin_s777",
+      "kept": "MS_heat_n7_twin_s777_r1"
+    },
+    {
+      "dropped": "MS_heat_n8_twin_s1234",
+      "kept": "MS_heat_n8_twin_s1234"
+    },
+    {
+      "dropped": "MS_heat_n8_twin_s2025",
+      "kept": "MS_heat_n8_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n8_twin_s777",
+      "kept": "MS_heat_n8_twin_s777"
+    },
+    {
+      "dropped": "MS_burgers_n3_twin_s1234",
+      "kept": "MS_burgers_n3_twin_s1234_r1"
+    },
+    {
+      "dropped": "MS_burgers_n3_twin_s2025",
+      "kept": "MS_burgers_n3_twin_s2025"
+    },
+    {
+      "dropped": "MS_burgers_n3_twin_s777",
+      "kept": "MS_burgers_n3_twin_s777"
+    },
+    {
+      "dropped": "MS_burgers_n4_twin_s1234",
+      "kept": "MS_burgers_n4_twin_s1234"
+    },
+    {
+      "dropped": "MS_burgers_n4_twin_s2025",
+      "kept": "MS_burgers_n4_twin_s2025"
+    },
+    {
+      "dropped": "MS_burgers_n4_twin_s777",
+      "kept": "MS_burgers_n4_twin_s777"
+    },
+    {
+      "dropped": "MS_burgers_n5_twin_s1234",
+      "kept": "MS_burgers_n5_twin_s1234"
+    },
+    {
+      "dropped": "MS_burgers_n5_twin_s2025",
+      "kept": "MS_burgers_n5_twin_s2025"
+    },
+    {
+      "dropped": "MS_burgers_n5_twin_s777",
+      "kept": "MS_burgers_n5_twin_s777"
+    },
+    {
+      "dropped": "MS_heat_n4_qapinn_s1234",
+      "kept": "MS_heat_n4_qapinn_s1234"
+    },
+    {
+      "dropped": "MS_heat_n4_qapinn_s2025",
+      "kept": "MS_heat_n4_qapinn_s2025"
+    },
+    {
+      "dropped": "MS_heat_n4_qapinn_s777",
+      "kept": "MS_heat_n4_qapinn_s777"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s1234",
+      "kept": "MS_heat_n4_twin_s1234_r1"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s2025",
+      "kept": "MS_heat_n4_twin_s2025"
+    },
+    {
+      "dropped": "MS_heat_n4_twin_s777",
+      "kept": "MS_heat_n4_twin_s777"
+    }
+  ],
+  "seeds_by_config": {
+    "burgers|gaaf|n3": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n3": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "burgers|gaaf|n4": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n4": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "burgers|gaaf|n5": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n5": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "burgers|gaaf|n6": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n6": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|gaaf|n7": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n7": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|gaaf|n8": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|twin|n8": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|gaaf|n3": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n3": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|gaaf|n4": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n4": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "heat|gaaf|n5": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n5": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|gaaf|n6": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n6": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|gaaf|n7": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n7": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|gaaf|n8": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|twin|n8": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|qapinn|n3": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|qapinn|n4": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "heat|qapinn|n5": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|qapinn|n6": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|qapinn|n7": [
+      777,
+      1234,
+      2025
+    ],
+    "heat|qapinn|n8": [
+      777,
+      1234,
+      2025
+    ],
+    "burgers|qapinn|n3": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "burgers|qapinn|n4": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ],
+    "burgers|qapinn|n5": [
+      777,
+      1234,
+      2025,
+      8080,
+      31415
+    ]
+  },
+  "caveats": [
+    "Tags containing 'hard' were excluded: they belong to the nu=0.01/pi study.",
+    "V5_* tags are single-run QAPINN sweeps recorded under the global SEED=1234.",
+    "Duplicates were removed on (pde, model, n_feat, seed); the first file found was kept.",
+    "No value is interpolated or filled; missing configurations are reported as missing."
+  ]
+}

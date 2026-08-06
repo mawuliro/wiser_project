@@ -1,0 +1,484 @@
+{
+  "note": "wsb-learning-dynamics (Track A, Djabon) - revision 2",
+  "inventory": {
+    "checkpoints": 283,
+    "gradients": 6,
+    "generalization": 6,
+    "master_csv": 10,
+    "landscape": 2
+  },
+  "accounting": {
+    "checkpoints_found": 283,
+    "kept": 210,
+    "excluded": 73,
+    "exclusions_by_reason": {
+      "tag did not parse": 4,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s1234.pt": 2,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s2025.pt": 2,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s777.pt": 2,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s777.pt": 1,
+      "Shah reproduction, outside WS-B scope": 36,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s777.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s1234.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s2025.pt": 1,
+      "same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s777.pt": 1
+    }
+  },
+  "dead_runs": [],
+  "gradient": {
+    "series_found": 8,
+    "duplicates_dropped": 1,
+    "duplicate_pairs": [
+      {
+        "dropped": "WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/phase3_inputs/gradients/gradient_variance.npz :: var_qapinn",
+        "identical_to": "WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz :: var"
+      }
+    ],
+    "unique_rows": 38,
+    "unlabelled_series_attributed_to_qapinn": [
+      "WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/results/V5_gradient_variance.npz :: var",
+      "WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/results/B_gradient_variance.npz :: var"
+    ],
+    "missing": [
+      "nu=0.05 model=gaaf",
+      "nu=0.01/pi model=qapinn"
+    ]
+  },
+  "fits": {
+    "0.05|qapinn|Tiers12_q38_more_iter|var": {
+      "slope_per_qubit": -0.40858933300032796,
+      "r2_log": 0.7373537000885334,
+      "n_points": 6,
+      "total_decay": 15.805045538495179
+    },
+    "0.05|qapinn|qapinn_runs_heat|var_qapinn": {
+      "slope_per_qubit": -0.5118751107324233,
+      "r2_log": 0.7710462115090574,
+      "n_points": 6,
+      "total_decay": 28.949465204553043
+    },
+    "0.05|qapinn|wiser|var": {
+      "slope_per_qubit": -0.15265243759416292,
+      "r2_log": 0.12107207865010927,
+      "n_points": 5,
+      "total_decay": 2.0922549369774703
+    },
+    "0.05|twin|qapinn_runs_heat|var_twin": {
+      "slope_per_qubit": 0.015543731751288255,
+      "r2_log": 0.005248797373266778,
+      "n_points": 6,
+      "total_decay": 0.7841526386372585
+    },
+    "0.01/pi|twin|qapinn_runs_hardnu_twin|var_twin": {
+      "slope_per_qubit": -0.07842852905243321,
+      "r2_log": 0.056487752623598064,
+      "n_points": 6,
+      "total_decay": 1.0251375916349998
+    },
+    "0.01/pi|gaaf|qapinn_runs_hardnu_gaaf|var_gaaf": {
+      "slope_per_qubit": -0.2244088773223369,
+      "r2_log": 0.3660662582590233,
+      "n_points": 6,
+      "total_decay": 1.7743723616760845
+    }
+  },
+  "n_results": 209,
+  "n_generalization": 6,
+  "coverage": {
+    "0.01/pi|burgers|gaaf|n3|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n4|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.01/pi|burgers|gaaf|n5|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n7|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|gaaf|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n3|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n4|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n5|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n7|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.01/pi|burgers|twin|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n3|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n3|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n4|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.05|burgers|twin|n4|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n5|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n5|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|gaaf|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n7|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n7|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|gaaf|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|gaaf|n3|MS": [
+      "1234",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n3|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|gaaf|n4|MS": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n4|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|heat|gaaf|n5|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777"
+    ],
+    "0.05|heat|twin|n5|MS": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|twin|n6|MS": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n7|MS": [
+      "1234",
+      "1234r",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|twin|n7|MS": [
+      "1234",
+      "2025",
+      "777",
+      "777r"
+    ],
+    "0.05|heat|gaaf|n8|MS": [
+      "1234",
+      "2025",
+      "2025r",
+      "777"
+    ],
+    "0.05|heat|twin|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n3|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n4|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|heat|qapinn|n5|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n6|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n7|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|heat|qapinn|n8|MS": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "0.05|burgers|twin|n3|CT": [
+      "1234"
+    ],
+    "0.05|burgers|twin|n4|CT": [
+      "1234"
+    ],
+    "0.05|burgers|twin|n5|CT": [
+      "1234"
+    ],
+    "0.05|heat|twin|n3|CT": [
+      "1234"
+    ],
+    "0.05|heat|twin|n4|CT": [
+      "1234"
+    ],
+    "0.05|heat|twin|n5|CT": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n3|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n4|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n5|MS": [
+      "1234",
+      "2025",
+      "31415",
+      "777",
+      "8080"
+    ],
+    "0.05|burgers|qapinn|n3|T1": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n4|T1": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n5|T1": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n3|T1": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n4|T1": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n5|T1": [
+      "1234"
+    ],
+    "0.01/pi|burgers|qapinn|n5|T2": [
+      "1234"
+    ],
+    "0.01/pi|burgers|qapinn|n3|T2": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n3|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n4|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n5|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n6|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n7|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n8|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n3|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n4|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n5|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n6|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n7|V5": [
+      "1234"
+    ],
+    "0.05|heat|qapinn|n8|V5": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n5|ablation": [
+      "1234",
+      "1234",
+      "1234",
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n6|ablation": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n7|ablation": [
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n3|ablation": [
+      "1234",
+      "1234",
+      "1234"
+    ],
+    "0.05|burgers|qapinn|n4|ablation": [
+      "1234",
+      "1234",
+      "1234"
+    ]
+  },
+  "caveats": [
+    "nu=0.05 and nu=0.01/pi are catalogued separately and never merged.",
+    "Exact-duplicate gradient series are excluded from fits; the pairs are listed above.",
+    "Gradient files record a qubit axis and variance series but NOT the PDE; the PDE is inferred from the run folder shown in the path.",
+    "Series named 'var' carry no model label and are attributed to QAPINN because the notebooks that wrote them swept QAPINN only.",
+    "Loss histories record one point per Adam iteration and one per L-BFGS chunk, so the step axis is not a uniform iteration count; phase changes are marked in B2.",
+    "Wall-clock is not comparable across machines.",
+    "Dead runs are detected from their own histories and excluded from figures, not from the CSVs.",
+    "No value is interpolated or filled; missing configurations are reported as missing.",
+    "Wall-clock cost could not be plotted: the training engine writes wall_s to the history only after the final checkpoint save, so it is absent from every stored checkpoint. The B5 cost panel was removed rather than shown empty."
+  ]
+}

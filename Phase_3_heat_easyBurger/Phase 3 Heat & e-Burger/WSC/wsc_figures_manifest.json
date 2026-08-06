@@ -1,0 +1,69 @@
+{
+  "note": "wsc-figures (Track A, Djabon), regenerated from the stored CSVs",
+  "nu": "0.05",
+  "source_csvs": [
+    "wsc_cka_by_slice.csv",
+    "wsc_neuron_stats.csv"
+  ],
+  "n_cka_rows": 4056,
+  "n_neuron_rows": 426166,
+  "pdes": [
+    "burgers",
+    "heat"
+  ],
+  "widths": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "n_slices": 26,
+  "reference_slice_C4": 0.52,
+  "reference_seed": 1234,
+  "figures": [
+    "C1_cka_first_layer_to_output_burgers.png",
+    "C1_cka_first_layer_to_output_heat.png",
+    "C2_cka_vs_width_burgers.png",
+    "C2_cka_vs_width_heat.png",
+    "C3_cka_by_depth_burgers.png",
+    "C3_cka_by_depth_heat.png",
+    "C4_figure3_burgers_n3.png",
+    "C4_figure3_burgers_n4.png",
+    "C4_figure3_burgers_n5.png",
+    "C4_figure3_burgers_n6.png",
+    "C4_figure3_burgers_n7.png",
+    "C4_figure3_burgers_n8.png",
+    "C4_figure3_heat_n3.png",
+    "C4_figure3_heat_n4.png",
+    "C4_figure3_heat_n5.png",
+    "C4_figure3_heat_n6.png",
+    "C4_figure3_heat_n7.png",
+    "C4_figure3_heat_n8.png",
+    "C5_saturation_by_layer_burgers.png",
+    "C5_saturation_by_layer_heat.png",
+    "C6_neuron_time_burgers_n3.png",
+    "C6_neuron_time_burgers_n4.png",
+    "C6_neuron_time_burgers_n5.png",
+    "C6_neuron_time_burgers_n6.png",
+    "C6_neuron_time_burgers_n7.png",
+    "C6_neuron_time_burgers_n8.png",
+    "C6_neuron_time_heat_n3.png",
+    "C6_neuron_time_heat_n4.png",
+    "C6_neuron_time_heat_n5.png",
+    "C6_neuron_time_heat_n6.png",
+    "C6_neuron_time_heat_n7.png",
+    "C6_neuron_time_heat_n8.png",
+    "C7_neuron_cka_by_layer_burgers.png",
+    "C7_neuron_cka_by_layer_heat.png",
+    "C7b_first_layer_cka_hist_burgers.png",
+    "C7b_first_layer_cka_hist_heat.png"
+  ],
+  "caveats": [
+    "Every figure is produced separately per PDE; no figure pools benchmarks.",
+    "C4 uses one reference slice so panels are comparable; C6 uses all slices.",
+    "Only nu=0.05 is included; hard-viscosity runs are analysed separately.",
+    "Nothing was recomputed: all values come from the stored CSVs."
+  ]
+}

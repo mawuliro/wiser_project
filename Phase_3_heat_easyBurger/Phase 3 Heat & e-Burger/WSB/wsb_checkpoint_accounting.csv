@@ -1,0 +1,284 @@
+tag,path,decision,reason
+qapinn_3qubit_checkpoint,BQP_WISER_2026/phase2_3qubit/checkpoints/qapinn_3qubit_checkpoint.pt,excluded,tag did not parse
+MS_hard_burgers_n3_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n3_gaaf_s1234.pt,kept,
+MS_hard_burgers_n3_gaaf_s1234_r1,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n3_gaaf_s1234_r1.pt,kept,
+MS_hard_burgers_n3_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n3_gaaf_s2025.pt,kept,
+MS_hard_burgers_n3_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n3_gaaf_s777.pt,kept,
+MS_hard_burgers_n4_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s1234.pt,kept,
+MS_hard_burgers_n4_gaaf_s1234_r1,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s1234_r1.pt,kept,
+MS_hard_burgers_n4_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s2025.pt,kept,
+MS_hard_burgers_n4_gaaf_s2025_r1,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s2025_r1.pt,kept,
+MS_hard_burgers_n4_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s777.pt,kept,
+MS_hard_burgers_n4_gaaf_s777_r1,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n4_gaaf_s777_r1.pt,kept,
+MS_hard_burgers_n5_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n5_gaaf_s1234.pt,kept,
+MS_hard_burgers_n5_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n5_gaaf_s2025.pt,kept,
+MS_hard_burgers_n5_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n5_gaaf_s777.pt,kept,
+MS_hard_burgers_n6_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n6_gaaf_s1234.pt,kept,
+MS_hard_burgers_n6_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n6_gaaf_s2025.pt,kept,
+MS_hard_burgers_n6_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n6_gaaf_s777.pt,kept,
+MS_hard_burgers_n7_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n7_gaaf_s1234.pt,kept,
+MS_hard_burgers_n7_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n7_gaaf_s2025.pt,kept,
+MS_hard_burgers_n7_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n7_gaaf_s777.pt,kept,
+MS_hard_burgers_n8_gaaf_s1234,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n8_gaaf_s1234.pt,kept,
+MS_hard_burgers_n8_gaaf_s2025,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n8_gaaf_s2025.pt,kept,
+MS_hard_burgers_n8_gaaf_s777,WISER Results/Phase 2 Hard Burger/GAAF-PINN/qapinn_runs_hardnu_gaaf/checkpoints/MS_hard_burgers_n8_gaaf_s777.pt,kept,
+MS_hard_burgers_n3_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n3_twin_s1234.pt,kept,
+MS_hard_burgers_n3_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n3_twin_s2025.pt,kept,
+MS_hard_burgers_n3_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n3_twin_s777.pt,kept,
+MS_hard_burgers_n4_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n4_twin_s1234.pt,kept,
+MS_hard_burgers_n4_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n4_twin_s2025.pt,kept,
+MS_hard_burgers_n4_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n4_twin_s777.pt,kept,
+MS_hard_burgers_n5_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n5_twin_s1234.pt,kept,
+MS_hard_burgers_n5_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n5_twin_s2025.pt,kept,
+MS_hard_burgers_n5_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n5_twin_s777.pt,kept,
+MS_hard_burgers_n6_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n6_twin_s1234.pt,kept,
+MS_hard_burgers_n6_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n6_twin_s2025.pt,kept,
+MS_hard_burgers_n6_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n6_twin_s777.pt,kept,
+MS_hard_burgers_n7_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n7_twin_s1234.pt,kept,
+MS_hard_burgers_n7_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n7_twin_s2025.pt,kept,
+MS_hard_burgers_n7_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n7_twin_s777.pt,kept,
+MS_hard_burgers_n8_twin_s1234,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n8_twin_s1234.pt,kept,
+MS_hard_burgers_n8_twin_s2025,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n8_twin_s2025.pt,kept,
+MS_hard_burgers_n8_twin_s777,WISER Results/Phase 2 Hard Burger/c-PINN/qapinn_runs_hardnu_twin/checkpoints/MS_hard_burgers_n8_twin_s777.pt,kept,
+MS_burgers_n3_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_gaaf_s1234.pt,kept,
+MS_burgers_n3_gaaf_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_gaaf_s1234_r1.pt,kept,
+MS_burgers_n3_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_gaaf_s2025.pt,kept,
+MS_burgers_n3_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_gaaf_s777.pt,kept,
+MS_burgers_n3_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s1234.pt,kept,
+MS_burgers_n3_twin_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s1234_r1.pt,kept,
+MS_burgers_n3_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s2025.pt,kept,
+MS_burgers_n3_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s777.pt,kept,
+MS_burgers_n4_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s1234.pt,kept,
+MS_burgers_n4_gaaf_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s1234_r1.pt,kept,
+MS_burgers_n4_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s2025.pt,kept,
+MS_burgers_n4_gaaf_s2025_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s2025_r1.pt,kept,
+MS_burgers_n4_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s777.pt,kept,
+MS_burgers_n4_gaaf_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_gaaf_s777_r1.pt,kept,
+MS_burgers_n4_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s1234.pt,kept,
+MS_burgers_n4_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s2025.pt,kept,
+MS_burgers_n4_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s777.pt,kept,
+MS_burgers_n5_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_gaaf_s1234.pt,kept,
+MS_burgers_n5_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_gaaf_s2025.pt,kept,
+MS_burgers_n5_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_gaaf_s777.pt,kept,
+MS_burgers_n5_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s1234.pt,kept,
+MS_burgers_n5_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s2025.pt,kept,
+MS_burgers_n5_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s777.pt,kept,
+MS_burgers_n6_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_gaaf_s1234.pt,kept,
+MS_burgers_n6_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_gaaf_s2025.pt,kept,
+MS_burgers_n6_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_gaaf_s777.pt,kept,
+MS_burgers_n6_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_twin_s1234.pt,kept,
+MS_burgers_n6_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_twin_s2025.pt,kept,
+MS_burgers_n6_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n6_twin_s777.pt,kept,
+MS_burgers_n7_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_gaaf_s1234.pt,kept,
+MS_burgers_n7_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_gaaf_s2025.pt,kept,
+MS_burgers_n7_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_gaaf_s777.pt,kept,
+MS_burgers_n7_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_twin_s1234.pt,kept,
+MS_burgers_n7_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_twin_s2025.pt,kept,
+MS_burgers_n7_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n7_twin_s777.pt,kept,
+MS_burgers_n8_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_gaaf_s1234.pt,kept,
+MS_burgers_n8_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_gaaf_s2025.pt,kept,
+MS_burgers_n8_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_gaaf_s777.pt,kept,
+MS_burgers_n8_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_twin_s1234.pt,kept,
+MS_burgers_n8_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_twin_s2025.pt,kept,
+MS_burgers_n8_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n8_twin_s777.pt,kept,
+MS_heat_n3_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_gaaf_s1234.pt,kept,
+MS_heat_n3_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_gaaf_s2025.pt,kept,
+MS_heat_n3_gaaf_s2025_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_gaaf_s2025_r1.pt,kept,
+MS_heat_n3_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_gaaf_s777.pt,kept,
+MS_heat_n3_gaaf_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_gaaf_s777_r1.pt,kept,
+MS_heat_n3_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s1234.pt,kept,
+MS_heat_n3_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s2025.pt,kept,
+MS_heat_n3_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s777.pt,kept,
+MS_heat_n4_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_gaaf_s1234.pt,kept,
+MS_heat_n4_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_gaaf_s2025.pt,kept,
+MS_heat_n4_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_gaaf_s777.pt,kept,
+MS_heat_n4_gaaf_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_gaaf_s777_r1.pt,kept,
+MS_heat_n4_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s1234.pt,kept,
+MS_heat_n4_twin_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s1234_r1.pt,kept,
+MS_heat_n4_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s2025.pt,kept,
+MS_heat_n4_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s777.pt,kept,
+MS_heat_n5_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_gaaf_s1234.pt,kept,
+MS_heat_n5_gaaf_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_gaaf_s1234_r1.pt,kept,
+MS_heat_n5_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_gaaf_s2025.pt,kept,
+MS_heat_n5_gaaf_s2025_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_gaaf_s2025_r1.pt,kept,
+MS_heat_n5_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_gaaf_s777.pt,kept,
+MS_heat_n5_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s1234.pt,kept,
+MS_heat_n5_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s2025.pt,kept,
+MS_heat_n5_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s777.pt,kept,
+MS_heat_n6_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_gaaf_s1234.pt,kept,
+MS_heat_n6_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_gaaf_s2025.pt,kept,
+MS_heat_n6_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_gaaf_s777.pt,kept,
+MS_heat_n6_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s1234.pt,kept,
+MS_heat_n6_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s2025.pt,kept,
+MS_heat_n6_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s777.pt,kept,
+MS_heat_n6_twin_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s777_r1.pt,kept,
+MS_heat_n7_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_gaaf_s1234.pt,kept,
+MS_heat_n7_gaaf_s1234_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_gaaf_s1234_r1.pt,kept,
+MS_heat_n7_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_gaaf_s2025.pt,kept,
+MS_heat_n7_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_gaaf_s777.pt,kept,
+MS_heat_n7_gaaf_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_gaaf_s777_r1.pt,kept,
+MS_heat_n7_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s1234.pt,kept,
+MS_heat_n7_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s2025.pt,kept,
+MS_heat_n7_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s777.pt,kept,
+MS_heat_n7_twin_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s777_r1.pt,kept,
+MS_heat_n8_gaaf_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_gaaf_s1234.pt,kept,
+MS_heat_n8_gaaf_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_gaaf_s2025.pt,kept,
+MS_heat_n8_gaaf_s2025_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_gaaf_s2025_r1.pt,kept,
+MS_heat_n8_gaaf_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_gaaf_s777.pt,kept,
+MS_heat_n8_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s1234.pt,kept,
+MS_heat_n8_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s2025.pt,kept,
+MS_heat_n8_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s777.pt,kept,
+MS_heat_n3_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_qapinn_s1234.pt,kept,
+MS_heat_n3_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_qapinn_s2025.pt,kept,
+MS_heat_n3_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_qapinn_s777.pt,kept,
+MS_heat_n3_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s1234.pt
+MS_heat_n3_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s2025.pt
+MS_heat_n3_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n3_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n3_twin_s777.pt
+MS_heat_n4_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s1234.pt,kept,
+MS_heat_n4_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s2025.pt,kept,
+MS_heat_n4_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s777.pt,kept,
+MS_heat_n4_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s1234.pt
+MS_heat_n4_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s2025.pt
+MS_heat_n4_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s777.pt
+MS_heat_n5_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_qapinn_s1234.pt,kept,
+MS_heat_n5_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_qapinn_s2025.pt,kept,
+MS_heat_n5_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_qapinn_s777.pt,kept,
+MS_heat_n5_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s1234.pt
+MS_heat_n5_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s2025.pt
+MS_heat_n5_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n5_twin_s777.pt
+MS_heat_n5_twin_s777_r1,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n5_twin_s777_r1.pt,kept,
+MS_heat_n6_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_qapinn_s1234.pt,kept,
+MS_heat_n6_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_qapinn_s2025.pt,kept,
+MS_heat_n6_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_qapinn_s777.pt,kept,
+MS_heat_n6_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s1234.pt
+MS_heat_n6_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s2025.pt
+MS_heat_n6_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n6_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n6_twin_s777.pt
+MS_heat_n7_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_qapinn_s1234.pt,kept,
+MS_heat_n7_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_qapinn_s2025.pt,kept,
+MS_heat_n7_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_qapinn_s777.pt,kept,
+MS_heat_n7_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s1234.pt
+MS_heat_n7_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s2025.pt
+MS_heat_n7_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n7_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n7_twin_s777.pt
+MS_heat_n8_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_qapinn_s1234.pt,kept,
+MS_heat_n8_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_qapinn_s2025.pt,kept,
+MS_heat_n8_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_qapinn_s777.pt,kept,
+MS_heat_n8_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s1234.pt
+MS_heat_n8_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s2025.pt
+MS_heat_n8_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n8_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n8_twin_s777.pt
+REPRO_shah_easy_n3_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n3_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n3_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n3_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n3_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n3_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n3_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n4_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n4_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_easy_n5_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_easy_n5_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n3_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n3_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n4_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n4_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_recipe_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_recipe_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_recipe_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_recipe_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_recipe_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_recipe_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_shah_s1234,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_shah_s1234.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_shah_s2025,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_shah_s2025.pt,excluded,"Shah reproduction, outside WS-B scope"
+REPRO_shah_hard_n5_shah_s777,WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Shah & al Reproduction/qapinn_runs_shah/checkpoints/REPRO_shah_hard_n5_shah_s777.pt,excluded,"Shah reproduction, outside WS-B scope"
+CT_burgers_n3,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_burgers_n3.pt,kept,
+CT_burgers_n4,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_burgers_n4.pt,kept,
+CT_burgers_n5,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_burgers_n5.pt,kept,
+CT_heat_n3,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_heat_n3.pt,kept,
+CT_heat_n4,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_heat_n4.pt,kept,
+CT_heat_n5,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_heat_n5.pt,kept,
+CT_hero_n5,WISER Results/Phase 2/Djabon Phase 2/Tiers12 c-PINN/qapinn_runs/checkpoints/CT_hero_n5.pt,excluded,tag did not parse
+MS_burgers_n3_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_qapinn_s1234.pt,kept,
+MS_burgers_n3_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_qapinn_s2025.pt,kept,
+MS_burgers_n3_qapinn_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_qapinn_s31415.pt,kept,
+MS_burgers_n3_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_qapinn_s777.pt,kept,
+MS_burgers_n3_qapinn_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_qapinn_s8080.pt,kept,
+MS_burgers_n3_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s1234.pt
+MS_burgers_n3_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s2025.pt
+MS_burgers_n3_twin_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_twin_s31415.pt,kept,
+MS_burgers_n3_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n3_twin_s777.pt
+MS_burgers_n3_twin_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n3_twin_s8080.pt,kept,
+MS_burgers_n4_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_qapinn_s1234.pt,kept,
+MS_burgers_n4_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_qapinn_s2025.pt,kept,
+MS_burgers_n4_qapinn_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_qapinn_s31415.pt,kept,
+MS_burgers_n4_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_qapinn_s777.pt,kept,
+MS_burgers_n4_qapinn_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_qapinn_s8080.pt,kept,
+MS_burgers_n4_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s1234.pt
+MS_burgers_n4_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s2025.pt
+MS_burgers_n4_twin_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_twin_s31415.pt,kept,
+MS_burgers_n4_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n4_twin_s777.pt
+MS_burgers_n4_twin_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n4_twin_s8080.pt,kept,
+MS_burgers_n5_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_qapinn_s1234.pt,kept,
+MS_burgers_n5_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_qapinn_s2025.pt,kept,
+MS_burgers_n5_qapinn_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_qapinn_s31415.pt,kept,
+MS_burgers_n5_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_qapinn_s777.pt,kept,
+MS_burgers_n5_qapinn_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_qapinn_s8080.pt,kept,
+MS_burgers_n5_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s1234.pt
+MS_burgers_n5_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s2025.pt
+MS_burgers_n5_twin_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_twin_s31415.pt,kept,
+MS_burgers_n5_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_burgers_n5_twin_s777.pt
+MS_burgers_n5_twin_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_burgers_n5_twin_s8080.pt,kept,
+MS_heat_n4_qapinn_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_qapinn_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s1234.pt
+MS_heat_n4_qapinn_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_qapinn_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s2025.pt
+MS_heat_n4_qapinn_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_qapinn_s31415.pt,kept,
+MS_heat_n4_qapinn_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_qapinn_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/Heat Multi_seed_q38/qapinn_runs_heat/checkpoints/MS_heat_n4_qapinn_s777.pt
+MS_heat_n4_qapinn_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_qapinn_s8080.pt,kept,
+MS_heat_n4_twin_s1234,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_twin_s1234.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s1234.pt
+MS_heat_n4_twin_s2025,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_twin_s2025.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s2025.pt
+MS_heat_n4_twin_s31415,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_twin_s31415.pt,kept,
+MS_heat_n4_twin_s777,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_twin_s777.pt,excluded,same tag already loaded from WISER Results/Phase 2/Djabon Phase 2/Additionnal computations/GAAF-PINN/qapinn_runs_gaaf/checkpoints/MS_heat_n4_twin_s777.pt
+MS_heat_n4_twin_s8080,WISER Results/Phase 2/Djabon Phase 2/Tiers12_multi_seed/qapinn_runs/checkpoints/MS_heat_n4_twin_s8080.pt,kept,
+T1_burgers_q3,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_burgers_q3.pt,kept,
+T1_burgers_q4,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_burgers_q4.pt,kept,
+T1_burgers_q5,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_burgers_q5.pt,kept,
+T1_heat_q3,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_heat_q3.pt,kept,
+T1_heat_q4,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_heat_q4.pt,kept,
+T1_heat_q5,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T1_heat_q5.pt,kept,
+T2_hero_q5,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T2_hero_q5.pt,kept,
+T2_smoke_q3,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q3/qapinn_runs/checkpoints/T2_smoke_q3.pt,kept,
+V5_burgers_q3,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q3.pt,kept,
+V5_burgers_q4,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q4.pt,kept,
+V5_burgers_q5,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q5.pt,kept,
+V5_burgers_q6,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q6.pt,kept,
+V5_burgers_q7,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q7.pt,kept,
+V5_burgers_q8,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_burgers_q8.pt,kept,
+V5_heat_q3,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q3.pt,kept,
+V5_heat_q4,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q4.pt,kept,
+V5_heat_q5,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q5.pt,kept,
+V5_heat_q6,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q6.pt,kept,
+V5_heat_q7,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q7.pt,kept,
+V5_heat_q8,WISER Results/Phase 2/Djabon Phase 2/Tiers12_q38_more_iter/qapinn_runs/checkpoints/V5_heat_q8.pt,kept,
+B10_q5_all_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B10_q5_all_expval_v3.pt,kept,
+B11_q4_depth3_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B11_q4_depth3_v3.pt,excluded,tag did not parse
+B12_q4_depth9_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B12_q4_depth9_v3.pt,excluded,tag did not parse
+B13_q6_linear_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B13_q6_linear_expval_v3.pt,kept,
+B14_q7_linear_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B14_q7_linear_expval_v3.pt,kept,
+B1_q3_linear_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B1_q3_linear_expval_v3.pt,kept,
+B2_q4_linear_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B2_q4_linear_expval_v3.pt,kept,
+B3_q5_linear_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B3_q5_linear_expval_v3.pt,kept,
+B4_q3_none_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B4_q3_none_expval_v3.pt,kept,
+B5_q4_none_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B5_q4_none_expval_v3.pt,kept,
+B6_q5_none_expval_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B6_q5_none_expval_v3.pt,kept,
+B7_q3_linear_probs_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B7_q3_linear_probs_v3.pt,kept,
+B8_q4_linear_probs_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B8_q4_linear_probs_v3.pt,kept,
+B9_q5_linear_probs_v3,WISER Results/Phase 2/Roland phase 2/wiser/qapinn_runs/checkpoints/B9_q5_linear_probs_v3.pt,kept,
