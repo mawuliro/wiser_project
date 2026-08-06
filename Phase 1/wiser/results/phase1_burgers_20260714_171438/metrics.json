@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260714_171438",
+  "authors": [
+    "Ounomborbitibou Djabon",
+    "Hounkp\u00e8 Mawouliklimi Roland"
+  ],
+  "phase": "1",
+  "deliverable": "Classical Baseline - Burgers equation (Corrected v6 - float64)",
+  "configuration": {
+    "pde": "1D viscous Burgers",
+    "nu": 0.003183098861837907,
+    "architecture": "8 hidden layers x 20 neurons, tanh",
+    "n_params": 3021,
+    "n_data_points": 100,
+    "n_collocation_points": 10000,
+    "collocation_sampling": "Latin Hypercube (scipy.stats.qmc.LatinHypercube)",
+    "optimizer": "scipy L-BFGS-B (Raissi's exact optimizer)",
+    "optimizer_config": {
+      "method": "L-BFGS-B",
+      "maxiter": 50000,
+      "maxfun": 50000,
+      "maxcor": 50,
+      "maxls": 50,
+      "ftol": 2.220446049250313e-16,
+      "gtol": 2.220446049250313e-16
+    },
+    "init": "xavier_uniform_ (Glorot uniform)",
+    "reference": "Analytical Cole-Hopf (float64)",
+    "seed": 42
+  },
+  "results": {
+    "relative_l2_error": 0.00021210619460471856,
+    "pde_residual_mean": 0.00017753739750028357,
+    "pde_residual_max": 0.03186379677574536,
+    "generalization_error": 0.0003204603419156875,
+    "training_time_sec": 6577.912799835205,
+    "total_iterations": 50001,
+    "final_loss": 4.9718896572327725e-08,
+    "optimizer_success": false
+  },
+  "target": {
+    "raissi_l2_error": 0.00067,
+    "status": "verified"
+  },
+  "fixes_applied": [
+    "1. Analytical Cole-Hopf reference (was: numerical method-of-lines)",
+    "2. Latin Hypercube Sampling for collocation (was: np.random.uniform)",
+    "3. scipy L-BFGS-B with Raissi exact params (was: PyTorch LBFGS that stalls)",
+    "4. xavier_uniform_ init (was: xavier_normal_)",
+    "5. No interpolation \u2014 analytical at exact grid (was: linear interp)",
+    "6. float64 for reference + L2 comparison (was: float32)",
+    "7. Neuron histogram bug fixed (all 8 layers now show data)",
+    "8. Saliency retain_graph=True fix (was: RuntimeError crash)"
+  ]
+}

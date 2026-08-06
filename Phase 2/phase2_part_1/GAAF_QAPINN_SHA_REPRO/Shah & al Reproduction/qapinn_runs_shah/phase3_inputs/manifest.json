@@ -1,0 +1,57 @@
+{
+  "created": "2026-08-06 10:59",
+  "notebook": "2-shah-fidelity (Track A, Djabon)",
+  "seeds": [
+    1234,
+    2025,
+    777
+  ],
+  "configs": [
+    {
+      "label": "shah_easy_n3",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 3
+    },
+    {
+      "label": "shah_hard_n3",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 3
+    },
+    {
+      "label": "shah_easy_n4",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 4
+    },
+    {
+      "label": "shah_hard_n4",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 4
+    },
+    {
+      "label": "shah_easy_n5",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 5
+    },
+    {
+      "label": "shah_hard_n5",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 5
+    }
+  ],
+  "models_present": [
+    "recipe",
+    "shah"
+  ],
+  "phase3_inputs": {
+    "WS-A Fourier": "spectra/*_spectrum.npz, *_neuron_spectra.npz",
+    "WS-B trainability": "gradients/gradient_variance.npz",
+    "WS-C CKA/XAI": "cka_*.npz, activations/*_acts.npz"
+  },
+  "metrics_table": "metrics_table.csv"
+}

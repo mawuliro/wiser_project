@@ -1,0 +1,98 @@
+{
+  "created": "2026-08-06 10:03",
+  "phase": "2-final (Track A, Djabon)",
+  "seeds": [
+    1234,
+    2025,
+    777,
+    31415,
+    8080
+  ],
+  "configs": [
+    {
+      "label": "burgers_n3",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 3
+    },
+    {
+      "label": "burgers_n4",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 4
+    },
+    {
+      "label": "burgers_n5",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 5
+    },
+    {
+      "label": "heat_n4",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 4
+    }
+  ],
+  "architecture": {
+    "qapinn": "VQC (6 layers, all-to-all, <Z>, full re-uploading, trainable input scale) + deep classical body 20x5",
+    "twin": "Linear(2,H)->tanh->Linear(H,n) + identical deep body, exact parameter parity",
+    "params": {
+      "3": 1801,
+      "4": 1827,
+      "5": 1853
+    }
+  },
+  "schedule": "Adam 1000 (lr 8e-3) -> L-BFGS 1000 (chunks of 200)",
+  "statistics": {
+    "burgers_n3": {
+      "ratio": 0.9002433353109183,
+      "ci": [
+        0.015959165426959358,
+        50.78198270961445
+      ],
+      "p": ">0.05",
+      "n_seeds": 5
+    },
+    "burgers_n4": {
+      "ratio": 0.9992254097238676,
+      "ci": [
+        0.19432685162328137,
+        5.138000287131762
+      ],
+      "p": ">0.05",
+      "n_seeds": 5
+    },
+    "burgers_n5": {
+      "ratio": 0.30364673503053474,
+      "ci": [
+        0.10037622118947213,
+        0.918557588660991
+      ],
+      "p": "<0.05",
+      "n_seeds": 5
+    },
+    "heat_n4": {
+      "ratio": 0.9421875312263612,
+      "ci": [
+        0.31456897606328943,
+        2.8220117416150474
+      ],
+      "p": ">0.05",
+      "n_seeds": 5
+    }
+  },
+  "phase3_inputs": {
+    "WS-A (Fourier)": "phase3_inputs/spectra/*_spectrum.npz (output power vs analytical), *_neuron_spectra.npz (per-neuron activation spectra)",
+    "WS-B (trainability)": "phase3_inputs/gradients/gradient_variance.npz (n=3,4,5 here; full 3-7 curve is Roland's B13-B14)",
+    "WS-C (CKA / neuron XAI)": "phase3_inputs/cka_*.npz (layer-layer + to-output CKA), phase3_inputs/activations/*_acts.npz (per-neuron)"
+  },
+  "metrics_table": "phase3_inputs/metrics_table.csv",
+  "excluded_by_design": [
+    "entanglement/measurement/depth ablation -> Roland Track B",
+    "barren-plateau curve across qubit counts -> Roland B13-B14",
+    "CKA and Fourier interpretation -> Phase 3",
+    "loss landscape / Hessian -> Phase 3 WS-B / stretch",
+    "design methodology -> Phase 4"
+  ]
+}

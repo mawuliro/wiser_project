@@ -1,0 +1,87 @@
+{
+  "created": "2026-08-06 10:47",
+  "pdes": {
+    "burgers": {
+      "nu": 0.05
+    },
+    "heat": {
+      "alpha": 0.1
+    }
+  },
+  "qubits": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "budget": {
+    "3": {
+      "adam": 2000,
+      "lbfgs": 1600,
+      "chunk": 200
+    },
+    "4": {
+      "adam": 2000,
+      "lbfgs": 1600,
+      "chunk": 200
+    },
+    "5": {
+      "adam": 2000,
+      "lbfgs": 1600,
+      "chunk": 200
+    },
+    "6": {
+      "adam": 1200,
+      "lbfgs": 800,
+      "chunk": 200
+    },
+    "7": {
+      "adam": 800,
+      "lbfgs": 500,
+      "chunk": 250
+    },
+    "8": {
+      "adam": 500,
+      "lbfgs": 300,
+      "chunk": 150
+    }
+  },
+  "architecture": {
+    "n_layers": 6,
+    "entanglement": "all",
+    "measurement": "expval",
+    "encoding": "full re-uploading + trainable input scale",
+    "head": "20 wide x 5 hidden (deep classical body)"
+  },
+  "results_burgers": {
+    "3": 0.003621754035818152,
+    "4": 0.0005857201801521337,
+    "5": 0.0011612639143268855,
+    "6": 0.004726963874109117,
+    "7": 0.003940586726535349,
+    "8": 0.005298296296910372
+  },
+  "results_heat": {
+    "3": 0.0011585058249241453,
+    "4": 0.0006980110492403504,
+    "5": 0.0005801251713506619,
+    "6": 0.0008304653492072535,
+    "7": 0.0026248305685831834,
+    "8": 0.004190492939216796
+  },
+  "gradient_variance": {
+    "3": 0.7022455334663391,
+    "4": 0.26642104983329773,
+    "5": 0.16941986978054047,
+    "6": 0.18531684577465057,
+    "7": 0.21895264089107513,
+    "8": 0.04443173110485077
+  },
+  "phase3_map": {
+    "WS-A (Fourier)": "models/V5_*.pt -- evaluate on a grid, FFT vs analytical",
+    "WS-B (barren plateau)": "results/V5_gradient_variance.npz + L2-vs-qubits turning point",
+    "WS-C (CKA)": "models/V5_*.pt -- compare quantum-layer output vs final output"
+  }
+}

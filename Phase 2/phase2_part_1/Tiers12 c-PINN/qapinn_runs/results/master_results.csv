@@ -1,0 +1,15 @@
+tag,pde,nu,n_qubits,n_layers,entanglement,measurement,encoding_reps,head_width,head_depth,optimizer,n_iters,params,L2,mse_u,mse_f,final_loss
+CT_burgers_n3,burgers,0.050000,3,0,classical,classical,0,20,5,adam+lbfgs,1400,1801,3.198222e-01,1.942278e-02,1.833539e-01,3.775817e-01
+CT_burgers_n4,burgers,0.050000,4,0,classical,classical,0,20,5,adam+lbfgs,1400,1827,1.442216e-02,4.723189e-05,1.388971e-03,1.861290e-03
+CT_burgers_n5,burgers,0.050000,5,0,classical,classical,0,20,5,adam+lbfgs,1400,1853,1.522468e-02,4.404084e-05,1.585148e-03,2.025557e-03
+CT_heat_n3,heat,0.100000,3,0,classical,classical,0,20,5,adam+lbfgs,1400,1801,3.288245e-03,7.668655e-06,1.633159e-04,2.400025e-04
+CT_heat_n4,heat,0.100000,4,0,classical,classical,0,20,5,adam+lbfgs,1400,1827,6.634557e-03,3.672797e-05,2.457781e-04,6.130578e-04
+CT_heat_n5,heat,0.100000,5,0,classical,classical,0,20,5,adam+lbfgs,1400,1853,1.409826e-03,1.143912e-06,5.174877e-05,6.318789e-05
+CT_hero_n5,burgers,0.003183,5,0,classical,classical,0,20,5,adam+lbfgs,4400,1853,2.497083e-03,1.757578e-07,2.155069e-05,2.330826e-05
+CT_burgers_n3,burgers,0.050000,3,0,classical,classical,0,20,5,adam+lbfgs,1400,1801,3.198222e-01,1.942278e-02,1.833539e-01,3.775817e-01
+CT_burgers_n4,burgers,0.050000,4,0,classical,classical,0,20,5,adam+lbfgs,1400,1827,1.442216e-02,4.723189e-05,1.388971e-03,1.861290e-03
+CT_burgers_n5,burgers,0.050000,5,0,classical,classical,0,20,5,adam+lbfgs,1400,1853,1.522468e-02,4.404084e-05,1.585148e-03,2.025557e-03
+CT_heat_n3,heat,0.100000,3,0,classical,classical,0,20,5,adam+lbfgs,1400,1801,3.288245e-03,7.668655e-06,1.633159e-04,2.400025e-04
+CT_heat_n4,heat,0.100000,4,0,classical,classical,0,20,5,adam+lbfgs,1400,1827,6.634557e-03,3.672797e-05,2.457781e-04,6.130578e-04
+CT_heat_n5,heat,0.100000,5,0,classical,classical,0,20,5,adam+lbfgs,1400,1853,1.409826e-03,1.143912e-06,5.174877e-05,6.318789e-05
+CT_hero_n5,burgers,0.003183,5,0,classical,classical,0,20,5,adam+lbfgs,4400,1853,2.497083e-03,1.757578e-07,2.155069e-05,2.330826e-05

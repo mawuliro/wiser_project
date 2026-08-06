@@ -1,0 +1,94 @@
+{
+  "created": "2026-07-27 18:11",
+  "notebook": "2-gaaf+twin baselines (Track A, Djabon)",
+  "seeds": [
+    1234,
+    2025,
+    777
+  ],
+  "configs": [
+    {
+      "label": "burgers_n3",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 3
+    },
+    {
+      "label": "burgers_n4",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 4
+    },
+    {
+      "label": "burgers_n5",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 5
+    },
+    {
+      "label": "burgers_n6",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 6
+    },
+    {
+      "label": "burgers_n7",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 7
+    },
+    {
+      "label": "burgers_n8",
+      "pde": "burgers",
+      "nu": 0.05,
+      "n_features": 8
+    },
+    {
+      "label": "heat_n3",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 3
+    },
+    {
+      "label": "heat_n4",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 4
+    },
+    {
+      "label": "heat_n5",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 5
+    },
+    {
+      "label": "heat_n6",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 6
+    },
+    {
+      "label": "heat_n7",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 7
+    },
+    {
+      "label": "heat_n8",
+      "pde": "heat",
+      "nu": 0.1,
+      "n_features": 8
+    }
+  ],
+  "models_present": [
+    "gaaf",
+    "qapinn",
+    "twin"
+  ],
+  "phase3_inputs": {
+    "WS-A Fourier": "spectra/*_spectrum.npz, *_neuron_spectra.npz",
+    "WS-B trainability": "gradients/gradient_variance.npz",
+    "WS-C CKA/XAI": "cka_*.npz, activations/*_acts.npz"
+  },
+  "metrics_table": "metrics_table.csv"
+}

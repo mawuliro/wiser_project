@@ -1,0 +1,9 @@
+tag,pde,nu,n_qubits,n_layers,entanglement,measurement,encoding_reps,head_width,head_depth,optimizer,n_iters,params,L2,mse_u,mse_f,final_loss
+T1_burgers_q3,burgers,0.050000,3,6,all,expval,6,20,5,adam+lbfgs,1400,1801,1.149164e-02,2.864782e-05,2.008358e-03,2.294836e-03
+T1_burgers_q4,burgers,0.050000,4,6,all,expval,6,20,5,adam+lbfgs,1400,1827,5.683449e-03,9.961253e-06,3.914571e-04,4.910696e-04
+T1_burgers_q5,burgers,0.050000,5,6,all,expval,6,20,5,adam+lbfgs,1400,1853,4.151443e-03,4.409693e-06,4.665170e-04,5.106139e-04
+T1_heat_q3,heat,0.100000,3,6,all,expval,6,20,5,adam+lbfgs,1400,1801,1.205264e-02,4.299386e-05,1.485017e-03,1.914956e-03
+T1_heat_q4,heat,0.100000,4,6,all,expval,6,20,5,adam+lbfgs,1400,1827,3.815476e-03,7.542254e-06,3.886781e-04,4.641006e-04
+T1_heat_q5,heat,0.100000,5,6,all,expval,6,20,5,adam+lbfgs,1400,1853,4.670265e-03,1.822484e-05,3.916494e-04,5.738979e-04
+T2_smoke_q3,burgers,0.003183,3,6,all,expval,6,20,5,adam+lbfgs,340,1801,4.189052e-01,7.333626e-03,1.624829e-01,2.358191e-01
+T2_hero_q5,burgers,0.003183,5,6,all,expval,6,20,5,adam+lbfgs,4400,1853,3.567357e-03,4.327571e-07,4.002811e-05,4.435568e-05
