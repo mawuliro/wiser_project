@@ -1,0 +1,10 @@
+tag,pde,nu,n_qubits,n_layers,entanglement,measurement,encoding_reps,head_width,head_depth,optimizer,n_iters,params,L2,mse_u,mse_f,final_loss
+MS_hard_burgers_n3_qapinn_s1234,burgers,0.003183,3,6,all,expval,6,20,5,adam+lbfgs,4400,1801,1.863543e-01,6.077288e-05,2.649517e-03,3.257246e-03
+MS_hard_burgers_n3_qapinn_s2025,burgers,0.003183,3,6,all,expval,6,20,5,adam+lbfgs,4400,1801,1.037032e-01,7.634244e-05,5.331008e-03,6.094432e-03
+MS_hard_burgers_n3_qapinn_s777,burgers,0.003183,3,6,all,expval,6,20,5,adam+lbfgs,4400,1801,6.404051e-02,2.194771e-05,1.372692e-03,1.592170e-03
+MS_hard_burgers_n4_qapinn_s1234,burgers,0.003183,4,6,all,expval,6,20,5,adam+lbfgs,4400,1827,7.229610e-02,3.899399e-06,2.047788e-04,2.437728e-04
+MS_hard_burgers_n4_qapinn_s2025,burgers,0.003183,4,6,all,expval,6,20,5,adam+lbfgs,4400,1827,4.073425e-02,3.736022e-06,3.149683e-04,3.523286e-04
+MS_hard_burgers_n4_qapinn_s777,burgers,0.003183,4,6,all,expval,6,20,5,adam+lbfgs,4400,1827,1.611704e-01,1.017591e-05,5.011294e-04,6.028885e-04
+MS_hard_burgers_n5_qapinn_s1234,burgers,0.003183,5,6,all,expval,6,20,5,adam+lbfgs,2314,1853,5.169601e-03,5.008596e-07,9.282601e-05,9.783461e-05
+MS_hard_burgers_n5_qapinn_s2025,burgers,0.003183,5,6,all,expval,6,20,5,adam+lbfgs,4400,1853,2.144686e-02,1.550971e-06,1.263911e-04,1.419008e-04
+MS_hard_burgers_n5_qapinn_s777,burgers,0.003183,5,6,all,expval,6,20,5,adam+lbfgs,4400,1853,5.165682e-02,4.809508e-06,4.662582e-04,5.143533e-04

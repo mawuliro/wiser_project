@@ -1,0 +1,23 @@
+{
+  "frozen_ic_baseline": 0.5906651236284663,
+  "flags": {
+    "hard_burgers_n3|twin|777": true,
+    "hard_burgers_n3|twin|1234": true,
+    "hard_burgers_n3|twin|2025": true,
+    "hard_burgers_n4|twin|777": true,
+    "hard_burgers_n4|twin|1234": true,
+    "hard_burgers_n4|twin|2025": true,
+    "hard_burgers_n5|twin|777": true,
+    "hard_burgers_n5|twin|1234": false,
+    "hard_burgers_n5|twin|2025": true,
+    "hard_burgers_n6|twin|777": true,
+    "hard_burgers_n6|twin|1234": true,
+    "hard_burgers_n6|twin|2025": true,
+    "hard_burgers_n7|twin|777": true,
+    "hard_burgers_n7|twin|1234": true,
+    "hard_burgers_n7|twin|2025": true,
+    "hard_burgers_n8|twin|777": true,
+    "hard_burgers_n8|twin|1234": true,
+    "hard_burgers_n8|twin|2025": true
+  }
+}

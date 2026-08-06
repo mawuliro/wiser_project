@@ -1,0 +1,4 @@
+tag,pde,nu,n_qubits,n_layers,entanglement,measurement,encoding_reps,head_width,head_depth,optimizer,n_iters,params,L2,mse_u,mse_f,final_loss
+MS_hard_burgers_n7_qapinn_s1234,burgers,0.003183,7,6,all,expval,6,20,5,adam+lbfgs,4400,1905,4.823057e-02,3.078495e-06,2.113703e-04,2.421552e-04
+MS_hard_burgers_n7_qapinn_s2025,burgers,0.003183,7,6,all,expval,6,20,5,adam+lbfgs,4400,1905,1.031570e-01,4.917551e-06,4.672143e-04,5.163898e-04
+MS_hard_burgers_n7_qapinn_s777,burgers,0.003183,7,6,all,expval,6,20,5,adam+lbfgs,4400,1905,8.672680e-03,1.643965e-06,1.746582e-04,1.910979e-04

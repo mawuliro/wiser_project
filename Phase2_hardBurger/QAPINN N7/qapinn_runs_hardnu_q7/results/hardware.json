@@ -1,0 +1,9 @@
+{
+  "host": "aimsgh-latitude7490",
+  "platform": "Linux-6.1.0-51-amd64-x86_64-with-glibc2.36",
+  "processor": "x86_64",
+  "python": "3.13.5",
+  "torch": "2.13.0+cu130",
+  "pennylane": "0.45.1",
+  "device": "cpu"
+}

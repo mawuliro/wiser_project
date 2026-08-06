@@ -1,0 +1,56 @@
+{
+  "created": "2026-08-06 17:04",
+  "notebook": "3-hardnu-classical-twin-q3to8 | nu=0.01/pi | full curriculum",
+  "seeds": [
+    1234,
+    2025,
+    777
+  ],
+  "configs": [
+    {
+      "label": "hard_burgers_n3",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 3
+    },
+    {
+      "label": "hard_burgers_n4",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 4
+    },
+    {
+      "label": "hard_burgers_n5",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 5
+    },
+    {
+      "label": "hard_burgers_n6",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 6
+    },
+    {
+      "label": "hard_burgers_n7",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 7
+    },
+    {
+      "label": "hard_burgers_n8",
+      "pde": "burgers",
+      "nu": 0.003183098861837907,
+      "n_features": 8
+    }
+  ],
+  "models_present": [
+    "twin"
+  ],
+  "phase3_inputs": {
+    "WS-A Fourier": "spectra/*_spectrum.npz, *_neuron_spectra.npz",
+    "WS-B trainability": "gradients/gradient_variance.npz",
+    "WS-C CKA/XAI": "cka_*.npz, activations/*_acts.npz"
+  },
+  "metrics_table": "metrics_table.csv"
+}

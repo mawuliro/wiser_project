@@ -1,0 +1,8 @@
+{
+  "frozen_ic_baseline": 0.5906651236284663,
+  "flags": {
+    "hard_burgers_n6|qapinn|777": true,
+    "hard_burgers_n6|qapinn|1234": true,
+    "hard_burgers_n6|qapinn|2025": true
+  }
+}

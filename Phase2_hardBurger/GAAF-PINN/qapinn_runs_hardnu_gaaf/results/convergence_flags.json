@@ -1,0 +1,23 @@
+{
+  "frozen_ic_baseline": 0.5906651236284663,
+  "flags": {
+    "hard_burgers_n3|gaaf|777": true,
+    "hard_burgers_n3|gaaf|1234": true,
+    "hard_burgers_n3|gaaf|2025": true,
+    "hard_burgers_n4|gaaf|777": true,
+    "hard_burgers_n4|gaaf|1234": true,
+    "hard_burgers_n4|gaaf|2025": true,
+    "hard_burgers_n5|gaaf|777": true,
+    "hard_burgers_n5|gaaf|1234": true,
+    "hard_burgers_n5|gaaf|2025": true,
+    "hard_burgers_n6|gaaf|777": true,
+    "hard_burgers_n6|gaaf|1234": true,
+    "hard_burgers_n6|gaaf|2025": true,
+    "hard_burgers_n7|gaaf|777": true,
+    "hard_burgers_n7|gaaf|1234": true,
+    "hard_burgers_n7|gaaf|2025": true,
+    "hard_burgers_n8|gaaf|777": true,
+    "hard_burgers_n8|gaaf|1234": true,
+    "hard_burgers_n8|gaaf|2025": true
+  }
+}

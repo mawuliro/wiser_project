@@ -1,0 +1,2 @@
+config,pde,model,n_features,n_seeds,params,memory_kb,L2_mean,L2_sd,pde_residual_mean,data_loss_mean,train_time_s_mean,extrapolation_L2_mean,dead_runs
+hard_burgers_n8,burgers,qapinn,8,3,1931,7.54,0.16558696322720193,0.07451326324041775,0.013518153534581264,0.00042020410182885826,0.0,0.4834307766042865,0
