@@ -3,7 +3,8 @@
 # ⚛️ Quantum-Assisted PINNs for Computational Fluid Dynamics
 
 ### 🌍 WISER 2026 Summer Program Industry Challenge
-### 🤝 In collaboration with BosonQ Psi (BQP)
+
+> From July, 6 2026 to Aug, 7 2026
 
 ---
 
@@ -20,11 +21,11 @@
 
 ### 🌟 Team: Quantum Horizon Africa
 
-**Mawulikplimi Roland Hounkpe** · AIMS Ghana
-📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 92 39 97 21
+**Ounimborbitibou Djabon** · AIMS Ghana / Univ. of Lome (TOGO)
+📧 [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) · 📱 +228 92 39 97 21
 
-**Ounimborbitibou Djabon** · AIMS Ghana
-📧 [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) · 📱 +228 93 21 72 15
+**Mawulikplimi Roland Hounkpe** · AIMS Ghana / Univ. of Lome (TOGO)
+📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 93 21 72 15
 
 ### 🔗 Repository
 
@@ -76,7 +77,7 @@ This is fundamentally a **comparative question**. To say what the quantum layer 
 The challenge is set on the **1-D viscous Burgers equation**, the canonical CFD benchmark derived from the Navier-Stokes equations by dropping the pressure-gradient term:
 
 $$
-\frac{\partial u}{\partial t} + u\,\frac{\partial u}{\partial x} - \nu\,\frac{\partial^2 u}{\partial x^2} = 0, \qquad x \in [-1, 1], \quad t \in [0, 1],
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} - \nu \frac{\partial^2 u}{\partial x^2} = 0, \qquad x \in [-1, 1], \quad t \in [0, 1],
 $$
 
 with initial condition $u(x, 0) = -\sin(\pi x)$ and boundary conditions $u(\pm 1, t) = 0$.
@@ -88,7 +89,7 @@ Two viscosity regimes are studied:
 | 🟢 **Easy** | $0.05$ | Smooth, near-linear advection | WISER Tier-1 |
 | 🔴 **Hard** | $0.01/\pi \approx 3.18 \times 10^{-3}$ | Sharp shock forms at $t \approx 0.4$ | Raissi (2017), Shah (2024) |
 
-We also use the linear **heat equation**, $\partial_t u - \alpha\, \partial_{xx} u = 0$ with $\alpha = 0.1$, as a control PDE that has no nonlinear advection term.
+We also use the linear **heat equation**, $\partial_t u - \alpha \partial_{xx} u = 0$ with $\alpha = 0.1$, as a control PDE that has no nonlinear advection term.
 
 ### 1.3 📄 The reference paper
 
@@ -130,7 +131,7 @@ We considered and implemented **five model variants**, all sharing the same trai
 | 1️⃣ | **Classical PINN** | 🟦 Classical | 9-layer tanh MLP with 3,021 parameters, trained with scipy L-BFGS-B. Raissi et al. (2017) architecture, used as the accuracy reference. |
 | 2️⃣ | **QAPINN** | ⚛️ Hybrid | VQC replaces the first hidden layer. Angle encoding with data re-uploading, configurable entanglement (none, linear, or all-to-all), configurable measurement (expval or probs). Deep classical head (5 layers of 20 neurons). |
 | 3️⃣ | **ClassicalTwin** | 🟦 Classical | Parameter-matched classical network with the exact same input scaling, head depth, and head width as the QAPINN. Pad vector consumes parameter slack so totals match exactly (1,801 / 1,827 / 1,853 params). **The control group.** |
-| 4️⃣ | **GAAF-PINN** | 🟦 Classical | Global Adaptive Activation Function PINN. Every tanh replaced by $\tanh(N \cdot a \cdot z)$ with a single shared trainable scalar $a$. State-of-the-art classical baseline from Jagtap et al. (2020). |
+| 4️⃣ | **GAAF-PINN** | 🟦 Classical | Global Adaptive Activation Function PINN. Every tanh replaced by $\tanh(N \cdot a \cdot z)$ with a single shared trainable scalar $a$. State-of-the-art classical baseline.|
 | 5️⃣ | **ShahQAPINN** | ⚛️ Hybrid | Faithful reproduction of Shah et al.'s exact architecture (8-layer RX VQC, probability state vector, single hidden layer, Adam only) at their exact parameter budget (74 / 189 / 600). |
 
 ### 2.3 🧠 Why we selected this approach
@@ -171,7 +172,7 @@ using a 4,000-point quadrature grid on $y \in [-3, 3]$ in float64. This eliminat
 
 #### 🔥 The heat equation reference
 
-The heat equation has the closed-form solution $u(x,t) = \sin(\pi x)\, e^{-\alpha \pi^2 t}$, which provides a noise-free reference for the easy-regime comparison.
+The heat equation has the closed-form solution $u(x,t) = \sin(\pi x) e^{-\alpha \pi^2 t}$, which provides a noise-free reference for the easy-regime comparison.
 
 ### 3.2 ⚛️ The QAPINN architecture
 
@@ -301,7 +302,7 @@ the **barren plateau** phenomenon. We test this by computing per-parameter gradi
 We use **Centered Kernel Alignment** (Kornblith et al. 2019) to measure representation similarity between layers:
 
 $$
-\text{CKA}(\mathbf{X}, \mathbf{Y}) = \frac{\langle\text{vec}(\mathbf{K}_X), \text{vec}(\mathbf{K}_Y)\rangle}{\|\text{vec}(\mathbf{K}_X)\|\,\|\text{vec}(\mathbf{K}_Y)\|}, \qquad \mathbf{K}_X = \mathbf{X}\mathbf{X}^\top,
+\text{CKA}(\mathbf{X}, \mathbf{Y}) = \frac{\langle\text{vec}(\mathbf{K}_X), \text{vec}(\mathbf{K}_Y)\rangle}{\|\text{vec}(\mathbf{K}_X)\| \|\text{vec}(\mathbf{K}_Y)\|}, \qquad \mathbf{K}_X = \mathbf{X}\mathbf{X}^\top,
 $$
 
 which gives a similarity score in $[0, 1]$ between two activation matrices, invariant to orthogonal transforms and isotropic scaling. We compute layer-to-layer CKA and neuron-output CKA at 26 time slices across $t \in [0, 1]$.
@@ -453,6 +454,12 @@ This supports a **frequency-selective interpretation** grounded in Schuld et al.
 
 ---
 
+## Phase 4 : Design methodology
+
+| + | 📐 **Derive a design methodology** | The ablation grid data is sufficient to derive a problem-specific design methodology: given a PDE's frequency content, prescribe the QAPINN configuration most likely to succeed. This was the original Phase 4 goal and remains the natural continuation. |
+
+---
+
 ## 5. 🔮 Limitations and Recommended Next Steps
 
 ### 5.1 ⚠️ Limitations
@@ -475,8 +482,7 @@ This supports a **frequency-selective interpretation** grounded in Schuld et al.
 | 3 | 📧 **Investigate the Shah reproduction gap** | Contact the authors or consult their supplementary material to resolve the under-documented details, particularly the encoding scheme and the exact Adam learning rate schedule. |
 | 4 | 🌊 **Test on a second nonlinear PDE** | The frequency-selective interpretation predicts the QAPINN should help most on PDEs with sharp high-frequency content. Testing on the **Allen-Cahn equation** (which has a sharper interface than Burgers) would be a strong confirmation. |
 | 5 | 🎮 **Try GPU-accelerated simulation** | PennyLane supports `lightning.gpu` and hardware backends. Moving the VQC simulation to GPU would allow scaling to 10+ qubits, where barren plateaus should start to appear even at shallow depth. |
-| 6 | 📐 **Derive a design methodology** | The ablation grid data is sufficient to derive a problem-specific design methodology: given a PDE's frequency content, prescribe the QAPINN configuration most likely to succeed. This was the original Phase 4 goal and remains the natural continuation. |
-| 7 | 📓 **Commit the missing WS-A notebook** | The easy-viscosity Workstream A analysis code should be reconstructed from the Colab session and committed to the repository for full reproducibility. |
+| 6 | 📓 **Commit the missing WS-A notebook** | The easy-viscosity Workstream A analysis code should be reconstructed from the Colab session and committed to the repository for full reproducibility. |
 
 ---
 
@@ -491,27 +497,6 @@ This supports a **frequency-selective interpretation** grounded in Schuld et al.
 </div>
 
 This project was completed by a two-person team. Both members contributed to all phases, but primary responsibility for each component is listed below.
-
----
-
-### 👤 Mawulikplimi Roland Hounkpe
-
-<div align="center">
-
-**🌟 Phase 1 Lead · Track B Lead · Repository Maintainer**
-
-📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 92 39 97 21 · 🏫 AIMS Ghana
-
-</div>
-
-| 📋 Component | 🎯 Contribution |
-|:-------------|:----------------|
-| 🧱 Phase 1 (classical baseline) | **Sole implementer.** Built the 9-layer tanh PINN, identified and fixed the 5 critical issues (Cole-Hopf reference, LHS collocation, scipy L-BFGS-B, xavier init, float64), achieved $L^2 = 2.12 \times 10^{-4}$ (3× better than Raissi et al.). |
-| 🔬 Phase 2 Track B (ablation grid) | Designed and ran the 14-configuration ablation grid varying entanglement, measurement, depth, and qubit count. Implemented the gradient-variance (barren-plateau) probe and the per-neuron interpretability hooks. |
-| 🔥 Phase 2 hard-viscosity (QAPINN) | Ran the 3-seed QAPINN training at hard viscosity for qubit counts 3 through 8. |
-| 📊 Phase 3 analysis | Co-implementer of the hard-viscosity Phase 3 input builder and figure notebooks. |
-| 📁 Repository management | Created and maintained the GitHub repository, organized the directory structure, wrote the README. |
-| 🎨 Slides design | Supported the presentation slide deck design alongside Djabon. |
 
 ---
 
@@ -536,14 +521,37 @@ This project was completed by a two-person team. Both members contributed to all
 | 📝 **Project report** | **Wrote the final project report** documenting the full three-phase study, results, and findings. |
 | 🎨 **Slides design** | **Designed the presentation slide deck**, supported by Roland. |
 
+
 ---
+
+### 👤 Mawulikplimi Roland Hounkpe
+
+<div align="center">
+
+**🌟 Phase 1 Lead · Track B Lead · Repository Maintainer**
+
+📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 92 39 97 21 · 🏫 AIMS Ghana
+
+</div>
+
+| 📋 Component | 🎯 Contribution |
+|:-------------|:----------------|
+| 🧱 Phase 1 (classical baseline) | **Sole implementer.** Built the 9-layer tanh PINN, identified and fixed the 5 critical issues (Cole-Hopf reference, LHS collocation, scipy L-BFGS-B, xavier init, float64), achieved $L^2 = 2.12 \times 10^{-4}$ (3× better than Raissi et al.). |
+| 🔬 Phase 2 Track B (ablation grid) | Designed and ran the 14-configuration ablation grid varying entanglement, measurement, depth, and qubit count. Implemented the gradient-variance (barren-plateau) probe and the per-neuron interpretability hooks. |
+| 🔥 Phase 2 hard-viscosity (QAPINN) | Ran the 3-seed QAPINN training at hard viscosity for qubit counts 3 through 8. |
+| 📊 Phase 3 analysis | Co-implementer of the hard-viscosity Phase 3 input builder and figure notebooks. |
+| 📁 Repository management | Created and maintained the GitHub repository, organized the directory structure, wrote the README. |
+| 🎨 Slides design | Supported the presentation slide deck design alongside Djabon. |
+
+---
+
 
 ### 📊 Division of labor summary
 
 | 📋 Component | 🌟 Primary | 🤝 Support |
 |:-------------|:----------:|:----------:|
 | Phase 1 classical baseline | Hounkpe | Djabon (review) |
-| Phase 2 QAPINN framework | Hounkpe (Track B) | Djabon (Track A) |
+| Phase 2 QAPINN framework | Hounkpe | Djabon |
 | Phase 2 ClassicalTwin | Djabon | Hounkpe |
 | Phase 2 GAAF-PINN | Djabon | Hounkpe |
 | Phase 2 Shah reproduction | Djabon | Hounkpe |
@@ -601,6 +609,7 @@ wiser_project/
     └── WSC/                                    🔗 CKA and neuron XAI
         ├── WSC_NeuronXAI.ipynb
         └── WSC_Figures.ipynb
+Phase_4/   📐 **Derive a design methodology** |
 ```
 
 > 📦 **Artefact statistics:** 29 📓 Jupyter notebooks · 580 💾 PyTorch checkpoints (`.pt`) · 1,497 🗃️ cached arrays (`.npz`) · 196 🖼️ raster figures (`.png`) · 50 📐 vector figures (`.pdf`) · 46 📊 results CSVs · 32 📋 JSON manifests
@@ -736,7 +745,7 @@ Please also cite the foundational works:
 
 **Team: Quantum Horizon Africa** · AIMS Ghana
 
-**WISER 2026 Summer Program**, in collaboration with **BosonQ Psi (BQP)**
+**WISER 2026 Summer Program**
 
 📅 August 2026 · 📍 AIMS Ghana
 
