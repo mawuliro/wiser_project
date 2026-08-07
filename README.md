@@ -1,6 +1,6 @@
-# WISER × BQP 2026 — Quantum-Assisted PINNs for Computational Fluid Dynamics
+# WISER CHALLENGE : BQP 2026, Quantum-Assisted PINNs for Computational Fluid Dynamics
 
-> **Authors:** Ounomborbitibou Djabon (Track A) · Hounkpè Mawouliklimi Roland (Track B)
+> **Authors:** Ounomborbitibou Djabon  \& Mawulikplimi Roland Hounkpe
 > **Program:** WISER 2026 Summer Program, in collaboration with BosonQ Psi (BQP)
 > **Challenge:** *Explain when, why, and how a variational quantum circuit (VVC) changes the learning dynamics of a Physics-Informed Neural Network.*
 
@@ -16,11 +16,11 @@
 2. [Repository Layout](#2-repository-layout)
 3. [Quickstart](#3-quickstart)
 4. [Mathematical Background](#4-mathematical-background)
-5. [Phase 1 — Classical PINN Baseline](#5-phase-1--classical-pinn-baseline)
-6. [Phase 2 — QAPINN Framework](#6-phase-2--qapinn-framework)
-7. [Phase 2 — Hard-Viscosity Benchmark](#7-phase-2--hard-viscosity-benchmark)
-8. [Phase 2 — Ablation Grid](#8-phase-2--ablation-grid)
-9. [Phase 3 — Explainability Workstreams](#9-phase-3--explainability-workstreams)
+5. [Phase 1 : Classical PINN Baseline](#5-phase-1--classical-pinn-baseline)
+6. [Phase 2 : QAPINN Framework](#6-phase-2--qapinn-framework)
+7. [Phase 2 : Hard-Viscosity Benchmark](#7-phase-2--hard-viscosity-benchmark)
+8. [Phase 2 : Ablation Grid](#8-phase-2--ablation-grid)
+9. [Phase 3 : Explainability Workstreams](#9-phase-3--explainability-workstreams)
 10. [Key Results](#10-key-results)
 11. [Reproducing the Shah et al. Table I](#11-reproducing-the-shah-et-al-table-i)
 12. [Methodological Notes & Caveats](#12-methodological-notes--caveats)
@@ -35,7 +35,7 @@ This repository contains the **complete code, trained models, and analysis artif
 
 Our contributions:
 
-1. **A reproducible classical baseline** (Phase 1): a 9-layer tanh PINN trained with scipy L-BFGS-B and a numerically stable Cole–Hopf reference, reaching relative $L^2 = 2.1\times10^{-4}$ — 3× better than the Raissi et al. (2017) target of $6.7\times10^{-4}$.
+1. **A reproducible classical baseline** (Phase 1): a 9-layer tanh PINN trained with scipy L-BFGS-B and a numerically stable Cole–Hopf reference, reaching relative $L^2 = 2.1\times10^{-4}$ which is 3× better than the Raissi et al. (2017) target of $6.7\times10^{-4}$.
 2. **A flexible QAPINN framework** (Phase 2): a VQC replaces the first hidden layer of a deep classical PINN, with configurable qubit count, variational depth, entanglement topology, measurement type, and post-processing width. Four model variants are supported: QAPINN, ClassicalTwin (exact parameter parity), GAAF-PINN (global adaptive activation), and ShahQAPINN (faithful Shah et al. reproduction).
 3. **A multi-seed, paired-statistical comparison** at exact parameter parity across both PDEs and two viscosity regimes, with paired t-tests and 95 % confidence intervals on the geometric-mean accuracy ratio.
 4. **A 14-config ablation grid** isolating the contribution of each quantum design axis (entanglement, measurement, depth, qubit count) plus a barren-plateau diagnostic out to 8 qubits.
@@ -88,7 +88,7 @@ wiser_project/
         └── WSC_Figures.ipynb
 ```
 
-**Note on structure:** the project is notebook-first — all framework code lives inside Jupyter notebooks. The canonical QAPINN framework is defined in `Phase 2/phase2_part_1/Tiers12_multi_seed/QAPINN_PHASE2_FINAL.ipynb` and is copy-pasted (with small variations) into the other Phase-2 notebooks.
+**Note on structure:** the project is notebook-first. All framework code lives inside Jupyter notebooks. The canonical QAPINN framework is defined in `Phase 2/phase2_part_1/Tiers12_multi_seed/QAPINN_PHASE2_FINAL.ipynb` and is copy-pasted (with small variations) into the other Phase-2 notebooks.
 
 **Artefact statistics:** 29 notebooks, 580 PyTorch checkpoints (`.pt`), 1 497 cached arrays (`.npz`), 196 raster figures (`.png`), 50 vector figures (`.pdf`), 46 results CSVs, 32 JSON manifests.
 
@@ -113,7 +113,7 @@ cd "Phase 1/wiser"
 jupyter notebook Phase1_Classical_Baseline.ipynb
 ```
 
-Expected runtime: ~5 minutes on CPU. Output: `results/phase1_burgers_*/metrics.json` with `relative_l2_error ≈ 2.1e-4`.
+Expected runtime: ~hours on CPU. Output: `results/phase1_burgers_*/metrics.json` with `relative_l2_error ≈ 2.1e-4`.
 
 ### 3.3 Run the QAPINN grid (Phase 2)
 
@@ -124,11 +124,11 @@ cd "Phase 2/phase2_part_1/Tiers12_multi_seed"
 jupyter notebook QAPINN_PHASE2_FINAL.ipynb
 ```
 
-This trains QAPINN + classical twin at 5 seeds × 3 qubit counts × 2 PDEs (Burgers ν=0.05 + Heat α=0.1). Schedule: 1000 Adam iters (lr=8e-3) → 1000 L-BFGS iters (chunked). Expected runtime: ~2 hours on CPU.
+This trains QAPINN + classical twin at 5 seeds × 3 qubit counts × 2 PDEs (Burgers ν=0.05 + Heat α=0.1). Schedule: 1000 Adam iters (lr=8e-3) → 1000 L-BFGS iters (chunked). Expected runtime:  hours on CPU.
 
 ### 3.4 Run Phase 3 analysis
 
-Phase 3 notebooks **do not retrain** — they consume Phase-2 artifacts (`.pt` checkpoints, `.npz` histories). Run `Phase3_Hard_InputBuilder.ipynb` first to extract all WS-A/B/C inputs, then the figure notebooks.
+Phase 3 notebooks **do not retrain**, they consume Phase-2 artifacts (`.pt` checkpoints, `.npz` histories). Run `Phase3_Hard_InputBuilder.ipynb` first to extract all WS-A/B/C inputs, then the figure notebooks.
 
 ---
 
@@ -136,10 +136,10 @@ Phase 3 notebooks **do not retrain** — they consume Phase-2 artifacts (`.pt` c
 
 ### 4.1 The 1-D viscous Burgers equation
 
-The viscous Burgers equation is the canonical CFD benchmark — it is the Navier–Stokes equation in one dimension with the pressure-gradient term dropped, retaining the nonlinear advection $u\,u_x$ and the viscous diffusion $\nu\,u_{xx}$:
+The viscous Burgers equation is the canonical CFD benchmark. It is the Navier–Stokes equation in one dimension with the pressure-gradient term dropped, retaining the nonlinear advection $u u_x$ and the viscous diffusion $\nu u_{xx}$:
 
 $$
-\frac{\partial u}{\partial t} + u\,\frac{\partial u}{\partial x} - \nu\,\frac{\partial^2 u}{\partial x^2} = 0, \qquad x \in [-1, 1], \quad t \in [0, 1],
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} - \nu \frac{\partial^2 u}{\partial x^2} = 0, \qquad x \in [-1, 1], \quad t \in [0, 1],
 $$
 
 with initial and boundary conditions
@@ -166,13 +166,13 @@ $$
 then
 
 $$
-u(x, t) = \frac{\displaystyle\int_{-\infty}^{\infty} \frac{x - y}{t}\, e^{-F(y;\,x,\,t)}\, dy}{\displaystyle\int_{-\infty}^{\infty} e^{-F(y;\,x,\,t)}\, dy}.
+u(x, t) = \frac{\displaystyle\int_{-\infty}^{\infty} \frac{x - y}{t} e^{-F(y;\,x,\,t)} dy}{\displaystyle\int_{-\infty}^{\infty} e^{-F(y;\,x,\,t)} dy}.
 $$
 
 The integrand spans $40+$ orders of magnitude, so we evaluate it in log-space with the numerically stable weighted-average form
 
 $$
-u(x, t) = \frac{\sum_k \tfrac{x - y_k}{t}\, w_k}{\sum_k w_k}, \qquad w_k = \exp\!\bigl(-F(y_k;\,x,\,t) - \max_j[-F(y_j;\,x,\,t)]\bigr),
+u(x, t) = \frac{\sum_k \tfrac{x - y_k}{t} w_k}{\sum_k w_k}, \qquad w_k = \exp\!\bigl(-F(y_k;\,x,\,t) - \max_j[-F(y_j;\,x,\,t)]\bigr),
 $$
 
 using a 4 000-point quadrature grid on $y \in [-3, 3]$ in float64. This avoids the numerical stiffness of finite-difference reference solvers and is reused as the evaluation target throughout all phases.
@@ -182,14 +182,14 @@ using a 4 000-point quadrature grid on $y \in [-3, 3]$ in float64. This avoids t
 The linear heat equation serves as a control PDE without nonlinear advection:
 
 $$
-\frac{\partial u}{\partial t} - \alpha\,\frac{\partial^2 u}{\partial x^2} = 0, \qquad u(x, 0) = \sin(\pi x), \qquad u(\pm 1, t) = 0,
+\frac{\partial u}{\partial t} - \alpha \frac{\partial^2 u}{\partial x^2} = 0, \qquad u(x, 0) = \sin(\pi x), \qquad u(\pm 1, t) = 0,
 $$
 
-with $\alpha = 0.1$. Its closed-form solution $u(x,t) = \sin(\pi x)\,e^{-\alpha\pi^2 t}$ provides a noise-free reference for the easy-regime comparison.
+with $\alpha = 0.1$. Its closed-form solution $u(x,t) = \sin(\pi x) e^{-\alpha\pi^2 t}$ provides a noise-free reference for the easy-regime comparison.
 
 ---
 
-## 5. Phase 1 — Classical PINN Baseline
+## 5. Phase 1 : Classical PINN Baseline
 
 The Phase-1 baseline is the **control group** against which every QAPINN claim is measured. A weak baseline makes every later quantum claim suspect; a strong baseline is half the work of winning the challenge.
 
@@ -202,7 +202,7 @@ The PINN architecture matches Raissi et al. (2017) exactly:
 - **Output:** 1 scalar $u(x, t)$
 - **Total parameters:** $(2\!\cdot\!20 + 20) + 7\!\cdot\!(20\!\cdot\!20 + 20) + (20\!\cdot\!1 + 1) = 3\,021$
 
-The $\tanh$ activation is required because the PINN loss calls for second derivatives $u_{xx}$ via autograd — ReLU is not twice-differentiable at the origin and would produce incorrect second derivatives.
+The $\tanh$ activation is required because the PINN loss calls for second derivatives $u_{xx}$ via autograd. ReLU is not twice-differentiable at the origin and would produce incorrect second derivatives.
 
 ### 5.2 PINN loss
 
@@ -213,18 +213,18 @@ $$
 $$
 
 $$
-\mathcal{L}_u = \frac{1}{N_u}\sum_{i=1}^{N_u}\bigl[u_\theta(x_i^u, t_i^u) - u_i\bigr]^2, \qquad \mathcal{L}_f = \frac{1}{N_f}\sum_{j=1}^{N_f}\Bigl[u_t + u\,u_x - \nu\,u_{xx}\Bigr]^2_{(x_j^f, t_j^f)}.
+\mathcal{L}_u = \frac{1}{N_u}\sum_{i=1}^{N_u}\bigl[u_\theta(x_i^u, t_i^u) - u_i\bigr]^2, \qquad \mathcal{L}_f = \frac{1}{N_f}\sum_{j=1}^{N_f}\Bigl[u_t + u u_x - \nu u_{xx}\Bigr]^2_{(x_j^f, t_j^f)}.
 $$
 
-The PDE residual $f = u_t + u\,u_x - \nu\,u_{xx}$ is computed **exactly** via PyTorch autograd — not via finite differences. This is the defining innovation of PINNs: the network is differentiated end-to-end with respect to its inputs, so the PDE is enforced at arbitrary (non-grid) collocation points.
+The PDE residual $f = u_t + u u_x - \nu u_{xx}$ is computed **exactly** via PyTorch autograd, not via finite differences. This is the defining innovation of PINNs: the network is differentiated end-to-end with respect to its inputs, so the PDE is enforced at arbitrary (non-grid) collocation points.
 
 ### 5.3 Five documented fixes over the v1–v4 baselines
 
 Phase 1 went through 6 versions to reach the verified $2.1\times10^{-4}$ result. The critical fixes:
 
-1. **Cole–Hopf analytical reference** (was: numerical method-of-lines) — eliminates interpolation error.
+1. **Cole-Hopf analytical reference** (was: numerical method-of-lines) — eliminates interpolation error.
 2. **Latin Hypercube Sampling** for collocation (was: `np.random.uniform`) — better space-filling.
-3. **scipy L-BFGS-B with Raissi's exact parameters** (was: `torch.optim.LBFGS`) — PyTorch's LBFGS stalls on PINN loss landscapes because its strong-Wolfe line search fails. Raissi's original code uses scipy's L-BFGS-B via `ScipyOptimizerInterface`, with `maxiter=50000`, `maxcor=50`, `maxls=50`, `ftol = \epsilon_\text{machine}`.
+3. **scipy L-BFGS-B with Raissi's exact parameters** (was: `torch.optim.LBFGS`)  PyTorch's LBFGS stalls on PINN loss landscapes because its strong-Wolfe line search fails. Raissi's original code uses scipy's L-BFGS-B via `ScipyOptimizerInterface`, with `maxiter=50000`, `maxcor=50`, `maxls=50`, `ftol = \epsilon_\text{machine}`.
 4. **`xavier_uniform_` initialization** (was: `xavier_normal_`) — matches Raissi's TensorFlow code.
 5. **float64 precision** (was: float32) — float32 has $\epsilon_\text{machine} \approx 1.2\times10^{-7}$; when loss reaches $\sim10^{-6}$, gradient noise triggers premature L-BFGS-B convergence. float64 ($\epsilon \approx 2.2\times10^{-16}$) allows convergence to $\sim10^{-8}$.
 
@@ -254,7 +254,7 @@ The trained model, loss history, and 6 XAI figures are saved under `Phase 1/wise
 
 ---
 
-## 6. Phase 2 — QAPINN Framework
+## 6. Phase 2 : QAPINN Framework
 
 The QAPINN replaces the first hidden layer of the Phase-1 classical PINN with a **variational quantum circuit (VQC)**. Following Shah et al. (2024), the VQC acts as a feature extractor whose output is fed to a classical post-processing head. All Phase-1 lessons (float64, Cole–Hopf, LHS, schedule-based training) are retained.
 
@@ -273,7 +273,7 @@ where $s \in \mathbb{R}^2$ is a trainable input scale, $\psi$ are the VQC weight
 The VQC uses **angle encoding with data re-uploading**: at every variational layer $\ell \in \{0, \dots, L-1\}$, the input $(x, t)$ is encoded as $R_Y$ rotations on every qubit (re-uploaded so the circuit sees the input $L$ times total). Each layer then applies a trainable $R_X(\theta_{\ell, q})$ rotation per qubit, followed by an entanglement block:
 
 $$
-|\psi_\text{out}\rangle = \prod_{\ell=1}^{L}\left[\Bigl(\prod_{q=1}^{n} R_X(\theta_{\ell,q})\Bigr) \cdot \mathcal{E}\right] \cdot \Bigl(\prod_{q=1}^{n} R_Y(\pi\, s \cdot x_t)\Bigr) \,|0\rangle^{\otimes n},
+|\psi_\text{out}\rangle = \prod_{\ell=1}^{L}\left[\Bigl(\prod_{q=1}^{n} R_X(\theta_{\ell,q})\Bigr) \cdot \mathcal{E}\right] \cdot \Bigl(\prod_{q=1}^{n} R_Y(\pi s \cdot x_t)\Bigr) |0\rangle^{\otimes n},
 $$
 
 where $\mathcal{E}$ is one of three entanglement topologies studied:
@@ -325,7 +325,7 @@ $$
 with the four terms
 
 $$
-\mathcal{L}_\text{pde} = \text{mean}\!\Bigl[\bigl(u_t + u\,u_x - \nu\,u_{xx}\bigr)^2\Bigr], \quad \mathcal{L}_\text{ic}  = \text{mean}\!\Bigl[\bigl(u(x, 0) + \sin(\pi x)\bigr)^2\Bigr],
+\mathcal{L}_\text{pde} = \text{mean}\!\Bigl[\bigl(u_t + u u_x - \nu\,u_{xx}\bigr)^2\Bigr], \quad \mathcal{L}_\text{ic}  = \text{mean}\!\Bigl[\bigl(u(x, 0) + \sin(\pi x)\bigr)^2\Bigr],
 $$
 
 $$
@@ -345,7 +345,7 @@ schedule = [
 ]
 ```
 
-- **Phase A (Adam):** Adam with `lr=8e-3` and AMSGrad. Per-parameter adaptive learning rate handles the wildly different gradient scales between the small VQC weights (3–8 parameters) and the large classical head (1 800+ parameters).
+- **Phase A (Adam):** Adam with `lr=8e-3` and AMSGrad. Per-parameter adaptive learning rate handles the wildly different gradient scales between the small VQC weights (3-8 parameters) and the large classical head (1 800+ parameters).
 - **Phase B (L-BFGS):** PyTorch's `LBFGS` with `history_size=60`, `line_search_fn="strong_wolfe"`, run in chunks of 200 iterations. A **blow-up guard** restores the best-known state if the loss diverges by more than $50\times$ the best.
 - **Checkpointing:** every 250 iterations, the full training state (model + optimizer + history + best state) is atomically saved via `os.replace`. The training function resumes transparently from the last checkpoint on re-run.
 - **Dead-run detection:** if the loss is unchanged across 3 logged chunks (suggesting a stuck run), the framework retries with a perturbed seed.
@@ -361,7 +361,7 @@ The framework supports four model variants that share the same training engine:
 
 ---
 
-## 7. Phase 2 — Hard-Viscosity Benchmark
+## 7. Phase 2 : Hard-Viscosity Benchmark
 
 The hard-viscosity regime $\nu = 0.01/\pi$ is the actual Raissi/Shah benchmark. It is significantly harder than the easy regime because:
 
@@ -374,9 +374,9 @@ Each hard-ν notebook ships a per-run `convergence_flags.json` (dead-run detecti
 
 ---
 
-## 8. Phase 2 — Ablation Grid
+## 8. Phase 2 : Ablation Grid
 
-The ablation grid (`Phase 2/phase2_part_2/wiser/QAPINN_ABLATION.ipynb`) varies **one axis at a time** with everything else fixed, on the easy-viscosity Burgers equation. Fourteen configurations (B1–B14) cover:
+The ablation grid (`Phase 2/phase2_part_2/wiser/QAPINN_ABLATION.ipynb`) varies **one axis at a time** with everything else fixed, on the easy-viscosity Burgers equation. Fourteen configurations (B1-B14) cover:
 
 | Axis | Variants |
 |------|----------|
@@ -391,15 +391,15 @@ Each ablation config adds:
 - A **gradient-variance probe** (Workstream B): per-parameter gradient variance vs qubit count, the empirical barren-plateau diagnostic.
 - **Per-neuron interpretability**: per-neuron activation profiles, neuron-health histograms, per-neuron frequency content (DFT of activations on a spatial grid at $t = 0.5$).
 
-The ablation confirms the headline finding from the multi-seed run: **entanglement matters** — turning it off (`"none"`) collapses the model to $L^2 \approx 1$.
+The ablation confirms the headline finding from the multi-seed run: **entanglement matters** , turning it off (`"none"`) collapses the model to $L^2 \approx 1$.
 
 ---
 
-## 9. Phase 3 — Explainability Workstreams
+## 9. Phase 3 : Explainability Workstreams
 
 Phase 3 consumes Phase-2 artifacts and runs three workstreams (no retraining). All workstreams evaluate at 26 time slices across $t \in [0, 1]$.
 
-### 9.1 Workstream A — Fourier-spectrum recovery (Schuld's theorem test)
+### 9.1 Workstream A : Fourier-spectrum recovery (Schuld's theorem test)
 
 **Hypothesis:** A VQC's accessible Fourier spectrum is determined by its encoding Hamiltonian (Schuld et al. 2021). With angle encoding $R_Y(\pi x)$, the VQC can express functions of the form
 
@@ -415,7 +415,7 @@ so a depth-$L$ VQC should access frequencies up to $\omega_\text{max} = L$. The 
 
 **Outputs:** `WSA/wsa_spectral_metrics.csv`, figures A1–A5 (overlay, qubit sweep, metric trends, seed sensitivity, single-vs-multi-seed).
 
-### 9.2 Workstream B — Learning dynamics & trainability
+### 9.2 Workstream B : Learning dynamics & trainability
 
 **Hypothesis:** McClean et al. (2018) predict that for sufficiently deep random circuits, the gradient variance decays exponentially with qubit count:
 
@@ -434,12 +434,12 @@ the **barren plateau** phenomenon. We test this empirically by computing the per
 
 **Outputs:** `wsb_run_summary.csv`, `wsb_gradient_variance.csv`, `wsb_loss_traces.npz`, `wsb_timing.csv`, figures HB1–HB4 (loss curves, gradient variance vs $n$, steps-to-threshold, cost).
 
-### 9.3 Workstream C — Neuron XAI & CKA information flow
+### 9.3 Workstream C : Neuron XAI & CKA information flow
 
 **Hypothesis:** The quantum layer either dominates the prediction (high CKA with the output) or is cosmetic (low CKA). We measure this with **Centered Kernel Alignment** (Kornblith et al. 2019):
 
 $$
-\text{CKA}(\mathbf{X}, \mathbf{Y}) = \frac{\langle\text{vec}(\mathbf{K}_X), \text{vec}(\mathbf{K}_Y)\rangle}{\|\text{vec}(\mathbf{K}_X)\|\,\|\text{vec}(\mathbf{K}_Y)\|}, \qquad \mathbf{K}_X = \mathbf{X}\mathbf{X}^\top,
+\text{CKA}(\mathbf{X}, \mathbf{Y}) = \frac{\langle\text{vec}(\mathbf{K}_X), \text{vec}(\mathbf{K}_Y)\rangle}{\|\text{vec}(\mathbf{K}_X)\|\|\text{vec}(\mathbf{K}_Y)\|}, \qquad \mathbf{K}_X = \mathbf{X}\mathbf{X}^\top,
 $$
 
 which gives a representation-similarity score in $[0, 1]$ between two activation matrices $\mathbf{X}, \mathbf{Y} \in \mathbb{R}^{N \times d}$, invariant to orthogonal transforms and isotropic scaling.
@@ -485,18 +485,18 @@ Relative $L^2 = 2.12\times10^{-4}$ on Burgers $\nu = 0.01/\pi$, verified below t
 
 where $\phi$-recovery is the cosine similarity between the model's spectral centroid and the analytical centroid. Note that gradient variance does **not** show the exponential decay predicted by McClean et al. — at our shallow depth ($L = 6$), barren plateaus do not yet appear out to $n = 7$.
 
-### 10.4 Phase 2 ablation grid — selected findings
+### 10.4 Phase 2 ablation grid  selected findings
 
 - **Entanglement is essential:** the `"none"` ablation (B4, B6) collapses to $L^2 \approx 1$ — the model cannot learn Burgers without entanglement, regardless of qubit count.
 - **Linear vs all-to-all:** the difference is small at $n = 3$ but grows with $n$, consistent with Schuld's frequency-access theorem.
 - **Measurement type:** `"expval"` ( $n$ outputs) outperforms `"probs"` ( $2^n$ outputs) at small $n$ in our regime, because the smaller output dimension concentrates the gradient signal.
 - **Depth:** $L = 9$ is marginally better than $L = 3$ on Burgers but worse on Heat (over-parameterization for a smooth solution).
 
-### 10.5 Phase 3 — Workstream A (Fourier recovery)
+### 10.5 Phase 3 : Workstream A (Fourier recovery)
 
 The QAPINN recovers the analytical spectral centroid to within 1 % at $n \geq 4$ on hard-ν Burgers. The classical twin's centroid drifts by 5–15 %, especially at $n = 3$.
 
-### 10.6 Phase 3 — Workstream C (CKA information flow)
+### 10.6 Phase 3 : Workstream C (CKA information flow)
 
 The VQC's first-layer CKA with the output is $0.55$–$0.66$ across all configs — meaning roughly half the output's representational geometry is already present in the VQC output. The classical twin's first-layer CKA is consistently higher ($0.70$+), suggesting the quantum layer encodes **less** of the final prediction than the first classical layer does — but the part it does encode is the high-frequency component.
 
