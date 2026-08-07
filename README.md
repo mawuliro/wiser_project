@@ -731,7 +731,6 @@ Please also cite the foundational works:
 | 👤 Name | 🎭 Role | 📧 Email | 📱 Phone |
 |:--------|:--------|:---------|:--------|
 | **Ounimborbitibou Djabon** | QAPINN Reproducibility ... · Report & Slides Lead | [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) | +228 92 39 97 21 |
-
 | **Mawulikplimi Roland Hounkpe** | Phase 1 Lead · Ablation ... · Repository Maintainer | [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) |  +228 93 21 72 15 |
 > 🤝 We welcome collaboration, questions, and feedback. Feel free to reach out to either of us via email or phone, or open an issue on the GitHub repository.
 
