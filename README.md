@@ -670,7 +670,7 @@ If you use this code or build on our results, please cite:
 @misc{wiser_bqp_2026,
   title  = {Quantum-Assisted Physics-Informed Neural Networks for Computational Fluid Dynamics:
             A Reproduction, Ablation, and Explainability Study},
-  author = {Hounkpe, Mawulikplimi Roland and Djabon, Ounimborbitibou},
+  author = {Djabon, Ounimborbitibou and Hounkpe, Mawulikplimi Roland},
   year   = {2026},
   note   = {WISER 2026 Summer Program Industry Challenge, in collaboration with BosonQ Psi (BQP)},
   url    = {https://github.com/mawuliro/wiser_project}
@@ -730,9 +730,9 @@ Please also cite the foundational works:
 
 | 👤 Name | 🎭 Role | 📧 Email | 📱 Phone |
 |:--------|:--------|:---------|:--------|
-| **Mawulikplimi Roland Hounkpe** | Phase 1 Lead · Track B Lead · Repository Maintainer | [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) | +228 92 39 97 21 |
-| **Ounimborbitibou Djabon** | Track A Lead · Report & Slides Lead | [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) | +228 93 21 72 15 |
+| **Ounimborbitibou Djabon** | QAPINN Reproducibility ... · Report & Slides Lead | [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) | +228 92 39 97 21 |
 
+| **Mawulikplimi Roland Hounkpe** | Phase 1 Lead · Ablation ... · Repository Maintainer | [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) |  +228 93 21 72 15 |
 > 🤝 We welcome collaboration, questions, and feedback. Feel free to reach out to either of us via email or phone, or open an issue on the GitHub repository.
 
 ---
@@ -743,11 +743,11 @@ Please also cite the foundational works:
 
 ### 🌟 Thank you!
 
-**Team: Quantum Horizon Africa** · AIMS Ghana
+**Team: Quantum Horizon Africa**
 
 **WISER 2026 Summer Program**
 
-📅 August 2026 · 📍 AIMS Ghana
+📅 June - August 2026
 
 ---
 
