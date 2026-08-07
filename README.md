@@ -2,6 +2,8 @@
 
 # ⚛️ Quantum-Assisted PINNs for Computational Fluid Dynamics
 
+## BQP Challenge
+
 ### 🌍 WISER 2026 Summer Program Industry Challenge
 
 > From July, 6 2026 to Aug, 7 2026
