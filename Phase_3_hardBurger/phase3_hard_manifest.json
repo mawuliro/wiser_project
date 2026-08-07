@@ -1,0 +1,144 @@
+{
+  "note": "phase3-input-builder-hardnu (Track A, Djabon)",
+  "pde": "burgers",
+  "nu": 0.003183098861837907,
+  "n_slices": 26,
+  "k_cut": 8.0,
+  "anchor_slice": 0.68,
+  "source_notebook": "N4_GAAF_hardnu_q3to8.ipynb",
+  "checkpoints_found": 116,
+  "selected": 58,
+  "excluded": 58,
+  "rebuilt": 58,
+  "failures": [],
+  "analytical_phi_max": 0.018752534424949636,
+  "budgets": {
+    "('gaaf', 3, 2016)": 4,
+    "('gaaf', 4, 2016)": 6,
+    "('gaaf', 5, 2016)": 3,
+    "('gaaf', 6, 2016)": 3,
+    "('gaaf', 7, 2016)": 3,
+    "('gaaf', 8, 2016)": 3,
+    "('qapinn', 3, 2016)": 3,
+    "('qapinn', 4, 2016)": 3,
+    "('qapinn', 5, 2016)": 3,
+    "('qapinn', 6, 2016)": 3,
+    "('qapinn', 7, 2016)": 3,
+    "('qapinn', 8, 703)": 3,
+    "('twin', 3, 2016)": 3,
+    "('twin', 4, 2016)": 3,
+    "('twin', 5, 2016)": 3,
+    "('twin', 6, 2016)": 3,
+    "('twin', 7, 2016)": 3,
+    "('twin', 8, 2016)": 3
+  },
+  "hosts": [
+    "aimsgh-latitude7490",
+    "roland-Latitude-7490"
+  ],
+  "dead_runs": [],
+  "coverage": {
+    "gaaf|n3": [
+      "1234",
+      "1234r",
+      "2025",
+      "777"
+    ],
+    "gaaf|n4": [
+      "1234",
+      "1234r",
+      "2025",
+      "2025r",
+      "777",
+      "777r"
+    ],
+    "gaaf|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "gaaf|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "gaaf|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "gaaf|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n3": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n4": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "qapinn|n8": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n3": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n4": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n5": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n6": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n7": [
+      "1234",
+      "2025",
+      "777"
+    ],
+    "twin|n8": [
+      "1234",
+      "2025",
+      "777"
+    ]
+  },
+  "caveats": [
+    "q8 is excluded from the primary analysis set (in_primary=False): its budget (~1000 steps) matches neither the other QAPINN widths (4400) nor the classical baselines (2016). It is retained in every file.",
+    "At q3-q7 the QAPINN trained about 2.2x longer than the classical baselines. The recovery fraction (phi_model / phi_exact) is therefore the primary WS-A metric, since it compares each model to ground truth rather than to the others.",
+    "Wall-clock from the stored runs is unavailable; the timing table was measured on this machine and is internally comparable only.",
+    "No ablation grid (entanglement, output extraction) exists at this viscosity; that finding remains scoped to nu=0.05.",
+    "Seed variance reflects initialisation only: training data is seeded globally.",
+    "No value is interpolated or filled; missing configurations are reported missing."
+  ]
+}

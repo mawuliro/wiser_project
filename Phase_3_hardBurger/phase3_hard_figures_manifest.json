@@ -1,0 +1,56 @@
+{
+  "note": "phase3-hard-figures (Track A, Djabon)",
+  "nu": "0.01/pi",
+  "anchor_slice": 0.68,
+  "analytical_phi_max": 0.018752534424949636,
+  "n_figures": 26,
+  "figures": [
+    "HA1_phi_vs_time_by_width.png",
+    "HA2_recovery_and_absolute.png",
+    "HA3_centroid.png",
+    "HA4_seed_spread.png",
+    "HB1_gradient_and_cost.png",
+    "HB2_cost_benefit.png",
+    "HB3_loss_traces.png",
+    "HB4_accuracy.png",
+    "HC1_cka_vs_time.png",
+    "HC2_cka_vs_width.png",
+    "HC3_cka_by_depth.png",
+    "HC4_layer_to_layer_cka.png",
+    "HC5_neuron_spread_n3.png",
+    "HC5_neuron_spread_n4.png",
+    "HC5_neuron_spread_n5.png",
+    "HC5_neuron_spread_n6.png",
+    "HC5_neuron_spread_n7.png",
+    "HC5_neuron_spread_n8.png",
+    "HC6_neuron_time_n3.png",
+    "HC6_neuron_time_n4.png",
+    "HC6_neuron_time_n5.png",
+    "HC6_neuron_time_n6.png",
+    "HC6_neuron_time_n7.png",
+    "HC6_neuron_time_n8.png",
+    "HC7_saturation.png",
+    "HC8_neuron_contribution.png"
+  ],
+  "primary_widths": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_widths": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "caveats": [
+    "Every value is read from the builder's CSVs; nothing is recomputed and no synthetic data is used.",
+    "q8 is excluded from WS-A and WS-C primary panels: its recorded budget is 703 steps against 2016 at every other width. It is shown in WS-B panels, where gradient variance and cost are measured at initialisation and are unaffected by training length, and in HB3/HB4 where it is labelled.",
+    "At q3-q7 all three architectures share the same 2016-step budget, so the head-to-head comparison at those widths is budget-matched.",
+    "Timing was measured on one machine at 400 collocation points and is internally comparable only."
+  ]
+}
