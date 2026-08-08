@@ -329,7 +329,7 @@ which gives a similarity score in $[0, 1]$ between two activation matrices, inva
 
 ### 3.7 📚 Research and evidence
 
-Our work is grounded in five foundational papers:
+Our work is grounded in seven foundational papers:
 
 | # | 📄 Paper | 🎯 Role in our project |
 |:-:|----------|:----------------------|
@@ -337,7 +337,9 @@ Our work is grounded in five foundational papers:
 | 2 | Shah, Lineswala, Chopra (2024) | QA-PINN paper we reproduce and ablate (Phase 2) |
 | 3 | Schuld, Sweke, Meyer (2021) | Fourier spectrum theorem for VQCs (Phase 3 WS-A) |
 | 4 | McClean et al. (2018) | Barren-plateau theorem (Phase 3 WS-B) |
-| 5 | Kornblith et al. (2019) | CKA representation-similarity metric (Phase 3 WS-C) |
+| 5 | Holmes, Sharma, Cerezo, Coles (2022) | Connection between ansatz expressibility and gradient magnitudes; explains why our shallow structured circuits deviate from the strict $3^{-n}$ barren-plateau floor (Phase 3 WS-B) |
+| 6 | Kornblith et al. (2019) | CKA representation-similarity metric (Phase 3 WS-C) |
+| 7 | Jagtap, Kawaguchi, Karniadakis (2020) | Adaptive activation functions; basis for the GAAF-PINN baseline (Phase 2) |
 
 Full BibTeX entries are in the [📝 Citation](#9-📝-citation) section.
 
@@ -456,9 +458,18 @@ This supports a **frequency-selective interpretation** grounded in Schuld et al.
 
 ---
 
-## Phase 4 : Design methodology
+## Phase 4: Design Methodology
 
-| + | 📐 **Derive a design methodology** | The ablation grid data is sufficient to derive a problem-specific design methodology: given a PDE's frequency content, prescribe the QAPINN configuration most likely to succeed. This was the original Phase 4 goal and remains the natural continuation. |
+We distilled the findings from Phases 1 to 3 into a **falsifiable, problem-specific circuit-design methodology** with a mathematical basis. The procedure gives a non-negotiable core recipe, a spectral gate that decides whether a quantum layer can help, a qubit-sizing rule tied to the target's frequency content, and a protocol layer requiring multiple seeds and matched training budgets.
+
+| Component | Rule |
+|:----------|:-----|
+| **Core recipe** | Angle encoding with data re-uploading, all-to-all entanglement, expectation-value readout, deep classical head (5 layers of width 20). Fixed because it held at every benchmark. |
+| **Spectral gate** | If the target PDE solution is dominated by low frequencies, use a classical PINN. If it has genuine high-frequency content, the QAPINN's frequency-access and non-saturation advantages become relevant. |
+| **Qubit-sizing rule** | Match qubit count to the target's spectral support, not to a default maximum. On hard-viscosity Burgers the minimum $L^2$ is at $n = 6$, not $n = 8$. |
+| **Protocol layer** | Run at least 5 seeds with a paired $t$-test on $\log L^2$. Use matched training budgets across widths. Compare against a parameter-matched classical twin. |
+
+The methodology is falsifiable: it predicts specific pairings that must fail, and all four predictions survive contact with held-out data. The decision tree (`Phase4_decision_tree.png`) and its validation against held-out configurations (`Phase4_validation.png`) are in the `Phase_4/` folder, with generation scripts `make_decision_tree.py` and `make_validation.py`.
 
 ---
 
@@ -508,7 +519,7 @@ This project was completed by a two-person team. Both members contributed to all
 
 **🌟 Track A Lead · Shah Reproduction · Report & Slides Lead**
 
-📧 [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) · 📱 +228 93 21 72 15 · 🏫 AIMS Ghana
+📧 [`djabon@aims.edu.gh`](mailto:djabon@aims.edu.gh) · 📱 +228 92 39 97 21 · 🏫 AIMS Ghana
 
 </div>
 
@@ -532,7 +543,7 @@ This project was completed by a two-person team. Both members contributed to all
 
 **🌟 Phase 1 Lead · Track B Lead · Repository Maintainer**
 
-📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 92 39 97 21 · 🏫 AIMS Ghana
+📧 [`rhounkpe@aims.edu.gh`](mailto:rhounkpe@aims.edu.gh) · 📱 +228 93 21 72 15 · 🏫 AIMS Ghana
 
 </div>
 
@@ -611,12 +622,24 @@ wiser_project/
     └── WSC/                                    🔗 CKA and neuron XAI
         ├── WSC_NeuronXAI.ipynb
         └── WSC_Figures.ipynb
-Phase_4/   📐 **Derive a design methodology** |
+
+├── Phase_4/                                    📐 Design methodology
+│   ├── Phase4_decision_tree.png                🖼️ Circuit-design decision tree
+│   ├── Phase4_validation.png                   🖼️ Validation of 4 falsifiable predictions
+│   ├── make_decision_tree.py                   🐍 Decision tree generation script
+│   └── make_validation.py                      🐍 Validation figure generation script
+│
+└── Submission_reports/                         📄 Final submission documents
+    ├── technical_report.pdf                    📄 Full 15-page technical report
+    ├── Key_Findings_Recommendations.pdf        📄 2-page key findings brief for BQP
+    └── Reproducibility_Instructions.pdf        📄 2-page reproduction guide
 ```
 
 > 📦 **Artefact statistics:** 29 📓 Jupyter notebooks · 580 💾 PyTorch checkpoints (`.pt`) · 1,497 🗃️ cached arrays (`.npz`) · 196 🖼️ raster figures (`.png`) · 50 📐 vector figures (`.pdf`) · 46 📊 results CSVs · 32 📋 JSON manifests
 
 > 🔒 **Git LFS:** Two CSVs under `Phase_3_heat_easyBurger/` are tracked via Git LFS (see `.gitattributes`). All other files are plain git.
+
+> 📄 **Submission reports:** The `Submission_reports/` folder contains the three final deliverables: the full 15-page technical report (`technical_report.pdf`), the 2-page key findings brief for BQP (`Key_Findings_Recommendations.pdf`), and the 2-page reproduction guide (`Reproducibility_Instructions.pdf`).
 
 ---
 
@@ -710,11 +733,23 @@ Please also cite the foundational works:
   journal = {Nature Communications}, volume = {9}, pages = {4812}, year = {2018}
 }
 
+@article{holmes2022connecting,
+  title   = {Connecting ansatz expressibility to gradient magnitudes and barren plateaus},
+  author  = {Holmes, Zo\"{e} and Sharma, Kunal and Cerezo, M. and Coles, Patrick J.},
+  journal = {PRX Quantum}, volume = {3}, pages = {010313}, year = {2022}
+}
+
 @inproceedings{kornblith2019similarity,
   title     = {Similarity of neural network representations revisited},
   author    = {Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey},
   booktitle = {Proceedings of the 36th International Conference on Machine Learning (ICML)},
   year      = {2019}
+}
+
+@article{jagtap2020adaptive,
+  title   = {Adaptive activation functions accelerate convergence in deep and physics-informed neural networks},
+  author  = {Jagtap, Ameya D. and Kawaguchi, Kenji and Karniadakis, George E.},
+  journal = {Journal of Computational Physics}, volume = {404}, pages = {109136}, year = {2020}
 }
 ```
 
