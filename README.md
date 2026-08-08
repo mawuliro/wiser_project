@@ -633,6 +633,7 @@ wiser_project/
     ├── technical_report.pdf                    📄 Full 15-page technical report
     ├── Key_Findings_Recommendations.pdf        📄 2-page key findings brief for BQP
     └── Reproducibility_Instructions.pdf        📄 2-page reproduction guide
+    ___ Quantum_horizon_presentation_slides.pdf
 ```
 
 > 📦 **Artefact statistics:** 29 📓 Jupyter notebooks · 580 💾 PyTorch checkpoints (`.pt`) · 1,497 🗃️ cached arrays (`.npz`) · 196 🖼️ raster figures (`.png`) · 50 📐 vector figures (`.pdf`) · 46 📊 results CSVs · 32 📋 JSON manifests
